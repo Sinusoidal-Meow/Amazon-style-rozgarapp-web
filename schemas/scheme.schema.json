@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VanRozgarScheme",
+  "description": "Schema for government, tribal affairs and NGO welfare schemes",
+  "type": "object",
+  "required": [
+    "code",
+    "kind",
+    "name_en",
+    "name_mr",
+    "runs_en",
+    "runs_mr",
+    "what_en",
+    "official_url"
+  ],
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "government",
+        "ngo"
+      ]
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "name_mr": {
+      "type": "string"
+    },
+    "runs_en": {
+      "type": "string"
+    },
+    "runs_mr": {
+      "type": "string"
+    },
+    "what_en": {
+      "type": "string"
+    },
+    "what_mr": {
+      "type": "string"
+    },
+    "who_en": {
+      "type": "string"
+    },
+    "documents_en": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "help_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audiences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "idea_codes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "official_url": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}

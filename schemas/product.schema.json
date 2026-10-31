@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VanRozgarProduct",
+  "description": "Schema for a VanRozgar marketplace product listing",
+  "type": "object",
+  "required": [
+    "id",
+    "itemCode",
+    "title",
+    "categorySlug",
+    "webCategory",
+    "productCode",
+    "price",
+    "pricePerUnitPaise",
+    "quantityAvailable",
+    "unit",
+    "mode",
+    "seller",
+    "provenance",
+    "verification",
+    "assets",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "originalId": {
+      "type": "string"
+    },
+    "itemCode": {
+      "type": "string",
+      "pattern": "^VR-[A-Z0-9]{4,8}$"
+    },
+    "title": {
+      "type": "object",
+      "required": [
+        "en"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "mr": {
+          "type": "string"
+        },
+        "combined": {
+          "type": "string"
+        }
+      }
+    },
+    "categorySlug": {
+      "type": "string"
+    },
+    "webCategory": {
+      "type": "string",
+      "enum": [
+        "medicinal",
+        "forest_produce",
+        "handicrafts",
+        "water_land",
+        "others"
+      ]
+    },
+    "productCode": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number",
+      "minimum": 0
+    },
+    "pricePerUnitPaise": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "mrp": {
+      "type": "number",
+      "minimum": 0
+    },
+    "mrpPerUnitPaise": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "fairPriceRange": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "quantityAvailable": {
+      "type": "number",
+      "minimum": 0
+    },
+    "minOrderQuantity": {
+      "type": "number",
+      "minimum": 1
+    },
+    "unit": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "sell",
+        "barter",
+        "both"
+      ]
+    },
+    "barterWants": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "seller": {
+      "type": "object",
+      "required": [
+        "name",
+        "village",
+        "district"
+      ],
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "gramSabhaId": {
+          "type": "string"
+        },
+        "sellerPhone": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "village": {
+          "type": "string"
+        },
+        "taluka": {
+          "type": "string"
+        },
+        "district": {
+          "type": "string"
+        },
+        "distanceKm": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "sourceArea": {
+          "type": "string"
+        },
+        "collectionMethod": {
+          "type": "string"
+        },
+        "isSustainable": {
+          "type": "boolean"
+        },
+        "harvestSeason": {
+          "type": "string"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "isVerified": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "isGroupListing": {
+      "type": "boolean"
+    },
+    "groupContributors": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "village": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "number"
+          },
+          "sharePct": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "rating": {
+          "type": "number"
+        },
+        "reviewCount": {
+          "type": "integer"
+        }
+      }
+    },
+    "assets": {
+      "type": "object",
+      "required": [
+        "illustration"
+      ],
+      "properties": {
+        "illustration": {
+          "type": "string"
+        },
+        "iconType": {
+          "type": "string"
+        },
+        "realPhotoAvailable": {
+          "type": "boolean"
+        },
+        "realPhotoPath": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "paused",
+        "sold_out",
+        "rejected"
+      ]
+    },
+    "isSample": {
+      "type": "boolean"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

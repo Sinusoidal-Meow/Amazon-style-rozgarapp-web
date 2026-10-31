@@ -1,0 +1,744 @@
+[
+  {
+    "id": "prod-showcase-01",
+    "originalId": "list-1",
+    "itemCode": "VR-SC01X",
+    "title": {
+      "en": "Wild Forest Raw Honey",
+      "mr": "रान मध",
+      "combined": "Wild Forest Raw Honey (रान मध)"
+    },
+    "categorySlug": "forest-produce",
+    "webCategory": "forest_produce",
+    "productCode": "honey",
+    "description": "100% raw multi-flora forest honey harvested by Katkari tribal honey collectors during the post-monsoon bloom.",
+    "price": 550,
+    "pricePerUnitPaise": 55000,
+    "mrp": 620,
+    "mrpPerUnitPaise": 62000,
+    "fairPriceRange": [
+      480,
+      620
+    ],
+    "quantityAvailable": 45,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "both",
+    "barterWants": "Bamboo storage baskets or Ashwagandha roots",
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-jawhar",
+      "name": "Gram Sabha Jawhar",
+      "village": "Jawhar",
+      "district": "Palghar",
+      "distanceKm": 4.2
+    },
+    "provenance": {
+      "sourceArea": "Deep Jawhar CFR Ridge Canopy, Compartment 42",
+      "collectionMethod": "Sustainable smoked wild comb harvesting (comb nucleus preserved)",
+      "isSustainable": true,
+      "harvestSeason": "October - December"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.9,
+      "reviewCount": 28
+    },
+    "assets": {
+      "illustration": "assets/products/honey.png",
+      "iconType": "honey",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-02",
+    "originalId": "list-2",
+    "itemCode": "VR-SC02X",
+    "title": {
+      "en": "Organic Ashwagandha Roots",
+      "mr": "अश्वगंधा मुळे",
+      "combined": "Organic Ashwagandha Roots (अश्वगंधा मुळे)"
+    },
+    "categorySlug": "medicinal-plants",
+    "webCategory": "medicinal",
+    "productCode": "herb",
+    "description": "High withanolide content wild-strain Ashwagandha roots harvested under strict CFR rotational collection guidelines.",
+    "price": 480,
+    "pricePerUnitPaise": 48000,
+    "mrp": 540,
+    "mrpPerUnitPaise": 54000,
+    "fairPriceRange": [
+      430,
+      540
+    ],
+    "quantityAvailable": 80,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "both",
+    "barterWants": "Spring water access or sun-dried Mahua flowers",
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-mokhada",
+      "name": "Gram Sabha Mokhada",
+      "village": "Mokhada",
+      "district": "Palghar",
+      "distanceKm": 9.8
+    },
+    "provenance": {
+      "sourceArea": "Mokhada Community Forest Shaded Hills, Plot 18",
+      "collectionMethod": "Hand-dug mature roots, sun-dried on bamboo mats without chemicals",
+      "isSustainable": true,
+      "harvestSeason": "September - November"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 34
+    },
+    "assets": {
+      "illustration": "assets/products/herb.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-03",
+    "originalId": "list-3",
+    "itemCode": "VR-SC03X",
+    "title": {
+      "en": "Tribal Bamboo Storage Baskets",
+      "mr": "बांबू टोपल्या",
+      "combined": "Tribal Bamboo Storage Baskets (बांबू टोपल्या)"
+    },
+    "categorySlug": "handicrafts-bamboo",
+    "webCategory": "handicrafts",
+    "productCode": "bamboo",
+    "description": "Sturdy, naturally treated bamboo storage baskets crafted by local Warli artisans with reinforced rim weaving.",
+    "price": 220,
+    "pricePerUnitPaise": 22000,
+    "mrp": 250,
+    "mrpPerUnitPaise": 25000,
+    "fairPriceRange": [
+      190,
+      250
+    ],
+    "quantityAvailable": 65,
+    "minOrderQuantity": 1,
+    "unit": "pieces",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-vikramgad",
+      "name": "Gram Sabha Vikramgad",
+      "village": "Vikramgad",
+      "district": "Palghar",
+      "distanceKm": 14.5
+    },
+    "provenance": {
+      "sourceArea": "Vikramgad Bamboo Grove CFR Reserve",
+      "collectionMethod": "Selective mature culm harvesting (Manvel bamboo species)",
+      "isSustainable": true,
+      "harvestSeason": "Year-round"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.9,
+      "reviewCount": 19
+    },
+    "assets": {
+      "illustration": "assets/products/basket.png",
+      "iconType": "bamboo",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-04",
+    "originalId": "list-4",
+    "itemCode": "VR-SC04X",
+    "title": {
+      "en": "Pooled Organic Wild Amla Harvest",
+      "mr": "सामूहिक आवळा",
+      "combined": "Pooled Organic Wild Amla Harvest (सामूहिक आवळा)"
+    },
+    "categorySlug": "forest-produce",
+    "webCategory": "forest_produce",
+    "productCode": "seed",
+    "description": "Combined bulk listing from 3 adjoining Gram Sabhas pooling high-vitamin C forest amla for bulk processing buyers.",
+    "price": 65,
+    "pricePerUnitPaise": 6500,
+    "mrp": 75,
+    "mrpPerUnitPaise": 7500,
+    "fairPriceRange": [
+      55,
+      75
+    ],
+    "quantityAvailable": 100,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "both",
+    "barterWants": "Cold-pressed seed oils or storage baskets",
+    "seller": {
+      "type": "consortium",
+      "gramSabhaId": "gs-jawhar",
+      "name": "Consortium of Jawhar, Mokhada & Vikramgad",
+      "village": "Jawhar Cluster",
+      "district": "Palghar",
+      "distanceKm": 6
+    },
+    "provenance": {
+      "sourceArea": "Combined Northern Sahyadri CFR Reserves",
+      "collectionMethod": "Poles-and-tarpaulin gentle canopy shake, sorted by fruit grade",
+      "isSustainable": true,
+      "harvestSeason": "November - January"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": true,
+    "groupContributors": [
+      {
+        "id": "p1",
+        "name": "Gram Sabha Jawhar",
+        "village": "Jawhar",
+        "quantity": 40,
+        "sharePct": 40
+      },
+      {
+        "id": "p2",
+        "name": "Gram Sabha Mokhada",
+        "village": "Mokhada",
+        "quantity": 35,
+        "sharePct": 35
+      },
+      {
+        "id": "p3",
+        "name": "Gram Sabha Vikramgad",
+        "village": "Vikramgad",
+        "quantity": 25,
+        "sharePct": 25
+      }
+    ],
+    "metrics": {
+      "rating": 4.7,
+      "reviewCount": 42
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-05",
+    "originalId": "list-5",
+    "itemCode": "VR-SC05X",
+    "title": {
+      "en": "Sun-Dried Mahua Flowers",
+      "mr": "सुकवलेली मोहफुले",
+      "combined": "Sun-Dried Mahua Flowers (सुकवलेली मोहफुले)"
+    },
+    "categorySlug": "forest-produce",
+    "webCategory": "forest_produce",
+    "productCode": "seed",
+    "description": "Golden dried Mahua flowers rich in natural sugars, minerals, and bio-nutrients. Cleaned and graded.",
+    "price": 95,
+    "pricePerUnitPaise": 9500,
+    "mrp": 110,
+    "mrpPerUnitPaise": 11000,
+    "fairPriceRange": [
+      85,
+      110
+    ],
+    "quantityAvailable": 150,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "both",
+    "barterWants": "Natural Lac or Mustard Seed",
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-melghat",
+      "name": "Gram Sabha Melghat",
+      "village": "Semadoh",
+      "district": "Amravati",
+      "distanceKm": 32
+    },
+    "provenance": {
+      "sourceArea": "Melghat Tiger Reserve Buffer CFR Zone",
+      "collectionMethod": "Ground tarpaulin collection at dawn, solar dome dried",
+      "isSustainable": true,
+      "harvestSeason": "March - May"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 51
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-06",
+    "originalId": "list-6",
+    "itemCode": "VR-SC06X",
+    "title": {
+      "en": "Natural Rangeeni Lac / Shellac",
+      "mr": "नैसर्गिक लाख",
+      "combined": "Natural Rangeeni Lac / Shellac (नैसर्गिक लाख)"
+    },
+    "categorySlug": "forest-produce",
+    "webCategory": "forest_produce",
+    "productCode": "forest-produce",
+    "description": "Unprocessed natural sticklac resin used for sealing wax, herbal varnishes, and traditional bangles.",
+    "price": 380,
+    "pricePerUnitPaise": 38000,
+    "mrp": 420,
+    "mrpPerUnitPaise": 42000,
+    "fairPriceRange": [
+      340,
+      420
+    ],
+    "quantityAvailable": 40,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-gadchiroli",
+      "name": "Gram Sabha Mendha Lekha",
+      "village": "Mendha",
+      "district": "Gadchiroli",
+      "distanceKm": 48
+    },
+    "provenance": {
+      "sourceArea": "Mendha Lekha Historic CFR Forest",
+      "collectionMethod": "Sustainable host tree pruning (Palas and Ber trees)",
+      "isSustainable": true,
+      "harvestSeason": "October - November"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 5,
+      "reviewCount": 38
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "lac",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-07",
+    "originalId": "list-7",
+    "itemCode": "VR-SC07X",
+    "title": {
+      "en": "Perennial Spring Water Tanker Allocation",
+      "mr": "झऱ्याचे पाणी हक्क",
+      "combined": "Perennial Spring Water Tanker Allocation (झऱ्याचे पाणी हक्क)"
+    },
+    "categorySlug": "water-land-resources",
+    "webCategory": "water_land",
+    "productCode": "water-land",
+    "description": "Community managed potable highland spring water for irrigation and village replenishment during dry cycles.",
+    "price": 650,
+    "pricePerUnitPaise": 65000,
+    "mrp": 720,
+    "mrpPerUnitPaise": 72000,
+    "fairPriceRange": [
+      580,
+      720
+    ],
+    "quantityAvailable": 20,
+    "minOrderQuantity": 1,
+    "unit": "tankers (5k L)",
+    "mode": "barter",
+    "barterWants": "Medicinal tree saplings or farm bamboo tools",
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-vihigaon",
+      "name": "Gram Sabha Vihigaon",
+      "village": "Vihigaon",
+      "district": "Nashik Border",
+      "distanceKm": 18.2
+    },
+    "provenance": {
+      "sourceArea": "Devrai Sacred Grove Natural Aquifer",
+      "collectionMethod": "Gravity-fed discharge line without motor pumping to preserve water table",
+      "isSustainable": true,
+      "harvestSeason": "October - June"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.9,
+      "reviewCount": 14
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "water",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-08",
+    "originalId": "list-8",
+    "itemCode": "VR-SC08X",
+    "title": {
+      "en": "Pure Shatavari Root Powder",
+      "mr": "शतावरी चूर्ण",
+      "combined": "Pure Shatavari Root Powder (शतावरी चूर्ण)"
+    },
+    "categorySlug": "medicinal-plants",
+    "webCategory": "medicinal",
+    "productCode": "herb",
+    "description": "Ayurvedic grade Shatavari (Asparagus racemosus) ground in community stone pulverizer.",
+    "price": 620,
+    "pricePerUnitPaise": 62000,
+    "mrp": 700,
+    "mrpPerUnitPaise": 70000,
+    "fairPriceRange": [
+      550,
+      700
+    ],
+    "quantityAvailable": 30,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "both",
+    "barterWants": "Raw Forest Honey or Deseeded Tamarind",
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-dahanu",
+      "name": "Gram Sabha Dahanu CFR",
+      "village": "Dahanu",
+      "district": "Palghar",
+      "distanceKm": 26
+    },
+    "provenance": {
+      "sourceArea": "Coastal Foothills Forest Ridge",
+      "collectionMethod": "Tubers lifted carefully with root regenerator replanting",
+      "isSustainable": true,
+      "harvestSeason": "December - February"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.9,
+      "reviewCount": 22
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-09",
+    "originalId": "list-9",
+    "itemCode": "VR-SC09X",
+    "title": {
+      "en": "Wild Mountain Tamarind - Deseeded",
+      "mr": "रान चिंच",
+      "combined": "Wild Mountain Tamarind - Deseeded (रान चिंच)"
+    },
+    "categorySlug": "forest-produce",
+    "webCategory": "forest_produce",
+    "productCode": "seed",
+    "description": "Deep sour tangy wild tamarind with exceptional natural shelf life, no chemical preservatives added.",
+    "price": 140,
+    "pricePerUnitPaise": 14000,
+    "mrp": 160,
+    "mrpPerUnitPaise": 16000,
+    "fairPriceRange": [
+      120,
+      160
+    ],
+    "quantityAvailable": 60,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "both",
+    "barterWants": "Sun-dried Mahua or Cane Mats",
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-jawhar",
+      "name": "Gram Sabha Jawhar",
+      "village": "Jawhar",
+      "district": "Palghar",
+      "distanceKm": 4.2
+    },
+    "provenance": {
+      "sourceArea": "Jawhar Hill Slopes, CFR block 3",
+      "collectionMethod": "Tree harvested by hand shaking, deseeded and pressed into hygienic blocks",
+      "isSustainable": true,
+      "harvestSeason": "January - March"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.7,
+      "reviewCount": 17
+    },
+    "assets": {
+      "illustration": "assets/products/seed.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-10",
+    "originalId": "list-10",
+    "itemCode": "VR-SC10X",
+    "title": {
+      "en": "Handmade Warli Grass & Cane Floor Mats",
+      "mr": "हस्तनिर्मित चटई",
+      "combined": "Handmade Warli Grass & Cane Floor Mats (हस्तनिर्मित चटई)"
+    },
+    "categorySlug": "handicrafts-bamboo",
+    "webCategory": "handicrafts",
+    "productCode": "bamboo",
+    "description": "Natural cooling river-reed mats woven using heirloom wooden frames by women forest collectives.",
+    "price": 340,
+    "pricePerUnitPaise": 34000,
+    "mrp": 390,
+    "mrpPerUnitPaise": 39000,
+    "fairPriceRange": [
+      300,
+      390
+    ],
+    "quantityAvailable": 25,
+    "minOrderQuantity": 1,
+    "unit": "pieces",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-wada",
+      "name": "Gram Sabha Wada",
+      "village": "Wada",
+      "district": "Palghar",
+      "distanceKm": 21
+    },
+    "provenance": {
+      "sourceArea": "Wada Wetland Grass Marsh CFR Area",
+      "collectionMethod": "Wild riparian reed grass gathered after seeding stage",
+      "isSustainable": true,
+      "harvestSeason": "Year-round"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 11
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "bamboo",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-11",
+    "originalId": "list-11",
+    "itemCode": "VR-SC11X",
+    "title": {
+      "en": "Cold-Pressed Karanja Seed Oil",
+      "mr": "करंज तेल",
+      "combined": "Cold-Pressed Karanja Seed Oil (करंज तेल)"
+    },
+    "categorySlug": "forest-produce",
+    "webCategory": "forest_produce",
+    "productCode": "seed",
+    "description": "Rich organic bio-pesticide and medicinal grade oil used in organic farming and traditional skin applications.",
+    "price": 210,
+    "pricePerUnitPaise": 21000,
+    "mrp": 240,
+    "mrpPerUnitPaise": 24000,
+    "fairPriceRange": [
+      190,
+      240
+    ],
+    "quantityAvailable": 50,
+    "minOrderQuantity": 1,
+    "unit": "litres",
+    "mode": "both",
+    "barterWants": "Wild Honey or Ashwagandha",
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-mokhada",
+      "name": "Gram Sabha Mokhada",
+      "village": "Mokhada",
+      "district": "Palghar",
+      "distanceKm": 9.8
+    },
+    "provenance": {
+      "sourceArea": "Mokhada Stream Bank Forest Area",
+      "collectionMethod": "Dropped seed pods gathered and oil expelled cold in village expeller",
+      "isSustainable": true,
+      "harvestSeason": "April - June"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.6,
+      "reviewCount": 15
+    },
+    "assets": {
+      "illustration": "assets/products/seed.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  },
+  {
+    "id": "prod-showcase-12",
+    "originalId": "list-12",
+    "itemCode": "VR-SC12X",
+    "title": {
+      "en": "Gudmar Leaves for Sugar Control",
+      "mr": "गुळवेल व गुडमार",
+      "combined": "Gudmar Leaves for Sugar Control (गुळवेल व गुडमार)"
+    },
+    "categorySlug": "medicinal-plants",
+    "webCategory": "medicinal",
+    "productCode": "herb",
+    "description": "Gymnema sylvestre leaves carefully shade-dried to retain gymnemic acid potency.",
+    "price": 320,
+    "pricePerUnitPaise": 32000,
+    "mrp": 360,
+    "mrpPerUnitPaise": 36000,
+    "fairPriceRange": [
+      280,
+      360
+    ],
+    "quantityAvailable": 45,
+    "minOrderQuantity": 1,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "gramSabhaId": "gs-gadchiroli",
+      "name": "Gram Sabha Mendha Lekha",
+      "village": "Mendha",
+      "district": "Gadchiroli",
+      "distanceKm": 48
+    },
+    "provenance": {
+      "sourceArea": "Gadchiroli Dense Sal & Teak Forest Understory",
+      "collectionMethod": "Selective mature leaf pruning ensuring vine rejuvenation",
+      "isSustainable": true,
+      "harvestSeason": "September - December"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.9,
+      "reviewCount": 31
+    },
+    "assets": {
+      "illustration": "assets/products/herb.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "website_showcase"
+  }
+]

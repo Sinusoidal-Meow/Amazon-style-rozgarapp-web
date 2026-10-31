@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VanRozgarCategory",
+  "description": "Schema for marketplace resource categories",
+  "type": "object",
+  "required": [
+    "slug",
+    "order",
+    "active",
+    "name",
+    "description",
+    "webCategory",
+    "defaultIcon"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string"
+    },
+    "iconKey": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "en",
+        "mr"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "mr": {
+          "type": "string"
+        },
+        "hi": {
+          "type": "string"
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "required": [
+        "en",
+        "mr"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "mr": {
+          "type": "string"
+        },
+        "hi": {
+          "type": "string"
+        }
+      }
+    },
+    "webCategory": {
+      "type": "string"
+    },
+    "defaultIcon": {
+      "type": "string"
+    }
+  }
+}

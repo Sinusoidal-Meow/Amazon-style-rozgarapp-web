@@ -1,0 +1,1320 @@
+[
+  {
+    "id": "gs-dongargaon",
+    "villageId": "dongargaon",
+    "name": {
+      "en": "Gram Sabha Dongargaon",
+      "mr": "ग्रामसभा डोंगरगाव"
+    },
+    "village": {
+      "en": "Dongargaon",
+      "mr": "डोंगरगाव"
+    },
+    "taluka": "Deola",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 154,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 154,
+      "saplingsPlanted": 6832,
+      "forestPonds": 2,
+      "waterStorageCapacityLitres": 6780000,
+      "looseBoulderStructures": 71,
+      "labourDaysGenerated": 843,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Anjan",
+          "count": 100
+        },
+        {
+          "name": "Chinch",
+          "count": 2200
+        },
+        {
+          "name": "Ashok",
+          "count": 55
+        },
+        {
+          "name": "Babhul",
+          "count": 200
+        },
+        {
+          "name": "Bel",
+          "count": 150
+        },
+        {
+          "name": "Bor",
+          "count": 180
+        },
+        {
+          "name": "Maharukh",
+          "count": 140
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 500
+        },
+        {
+          "name": "Shami",
+          "count": 300
+        },
+        {
+          "name": "Shindi",
+          "count": 100
+        },
+        {
+          "name": "Shirish",
+          "count": 100
+        },
+        {
+          "name": "Shisu",
+          "count": 100
+        },
+        {
+          "name": "Sitaphal",
+          "count": 1635
+        },
+        {
+          "name": "Tambda Khair",
+          "count": 300
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011001"
+  },
+  {
+    "id": "gs-kanchane",
+    "villageId": "kanchane",
+    "name": {
+      "en": "Gram Sabha Kanchane",
+      "mr": "ग्रामसभा कांचने"
+    },
+    "village": {
+      "en": "Kanchane",
+      "mr": "कांचने"
+    },
+    "taluka": "Deola",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 51,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 51,
+      "saplingsPlanted": 5160,
+      "forestPonds": 1,
+      "waterStorageCapacityLitres": 8170000,
+      "looseBoulderStructures": 90,
+      "labourDaysGenerated": 287,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Anjan",
+          "count": 250
+        },
+        {
+          "name": "Amba (Grafted)",
+          "count": 600
+        },
+        {
+          "name": "Chinch",
+          "count": 1800
+        },
+        {
+          "name": "Awla",
+          "count": 200
+        },
+        {
+          "name": "Bel",
+          "count": 100
+        },
+        {
+          "name": "Bhendi",
+          "count": 100
+        },
+        {
+          "name": "Bor",
+          "count": 100
+        },
+        {
+          "name": "Kawath",
+          "count": 100
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 100
+        },
+        {
+          "name": "Shami",
+          "count": 100
+        },
+        {
+          "name": "Shindi",
+          "count": 100
+        },
+        {
+          "name": "Shirish",
+          "count": 100
+        },
+        {
+          "name": "Sitaphal",
+          "count": 800
+        },
+        {
+          "name": "Tambda Khair",
+          "count": 600
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011002"
+  },
+  {
+    "id": "gs-kumbharde",
+    "villageId": "kumbharde",
+    "name": {
+      "en": "Gram Sabha Kumbharde",
+      "mr": "ग्रामसभा कुंभार्डे"
+    },
+    "village": {
+      "en": "Kumbharde",
+      "mr": "कुंभार्डे"
+    },
+    "taluka": "Deola",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 211,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 211,
+      "saplingsPlanted": 0,
+      "forestPonds": 0,
+      "waterStorageCapacityLitres": 0,
+      "looseBoulderStructures": 250,
+      "labourDaysGenerated": 615,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": []
+    },
+    "secretaryPhone": "+919822011003"
+  },
+  {
+    "id": "gs-varshi",
+    "villageId": "varshi",
+    "name": {
+      "en": "Gram Sabha Varshi",
+      "mr": "ग्रामसभा वर्षी"
+    },
+    "village": {
+      "en": "Varshi",
+      "mr": "वर्षी"
+    },
+    "taluka": "Deola",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 159,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 159,
+      "saplingsPlanted": 9798,
+      "forestPonds": 0,
+      "waterStorageCapacityLitres": 0,
+      "looseBoulderStructures": 0,
+      "labourDaysGenerated": 617,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Anjan",
+          "count": 200
+        },
+        {
+          "name": "Amba (Grafted)",
+          "count": 1000
+        },
+        {
+          "name": "Chinch",
+          "count": 1500
+        },
+        {
+          "name": "Babhul",
+          "count": 50
+        },
+        {
+          "name": "Bamboo",
+          "count": 1600
+        },
+        {
+          "name": "Behda",
+          "count": 50
+        },
+        {
+          "name": "Bel",
+          "count": 51
+        },
+        {
+          "name": "Bor",
+          "count": 100
+        },
+        {
+          "name": "Kawath",
+          "count": 100
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 160
+        },
+        {
+          "name": "Ritha",
+          "count": 150
+        },
+        {
+          "name": "Shami",
+          "count": 100
+        },
+        {
+          "name": "Shindi",
+          "count": 100
+        },
+        {
+          "name": "Shirish",
+          "count": 100
+        },
+        {
+          "name": "Shisu",
+          "count": 100
+        },
+        {
+          "name": "Sitaphal",
+          "count": 700
+        },
+        {
+          "name": "Tambda Khair",
+          "count": 200
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011004"
+  },
+  {
+    "id": "gs-bhatode",
+    "villageId": "bhatode",
+    "name": {
+      "en": "Gram Sabha Bhatode",
+      "mr": "ग्रामसभा भाटोडे"
+    },
+    "village": {
+      "en": "Bhatode",
+      "mr": "भाटोडे"
+    },
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 50,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 50,
+      "saplingsPlanted": 0,
+      "forestPonds": 0,
+      "waterStorageCapacityLitres": 0,
+      "looseBoulderStructures": 30,
+      "labourDaysGenerated": 0,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": []
+    },
+    "secretaryPhone": "+919822011005"
+  },
+  {
+    "id": "gs-kochargaon",
+    "villageId": "kochargaon",
+    "name": {
+      "en": "Gram Sabha Kochargaon",
+      "mr": "ग्रामसभा कोचरगाव"
+    },
+    "village": {
+      "en": "Kochargaon",
+      "mr": "कोचरगाव"
+    },
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 255,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 255,
+      "saplingsPlanted": 74654,
+      "forestPonds": 3,
+      "waterStorageCapacityLitres": 20910000,
+      "looseBoulderStructures": 40,
+      "labourDaysGenerated": 2730,
+      "cfrmcMeetings": 3,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Babool",
+          "count": null
+        },
+        {
+          "name": "Bel",
+          "count": null
+        },
+        {
+          "name": "Cashew",
+          "count": null
+        },
+        {
+          "name": "Sitaphal",
+          "count": null
+        },
+        {
+          "name": "Neem",
+          "count": null
+        },
+        {
+          "name": "Bamboo",
+          "count": null
+        },
+        {
+          "name": "Apta",
+          "count": null
+        },
+        {
+          "name": "Sawar",
+          "count": null
+        },
+        {
+          "name": "Asana",
+          "count": null
+        },
+        {
+          "name": "Palas",
+          "count": null
+        },
+        {
+          "name": "Karwand",
+          "count": null
+        },
+        {
+          "name": "Bahava",
+          "count": null
+        },
+        {
+          "name": "Bhokar",
+          "count": null
+        },
+        {
+          "name": "Tendu / Tembumi",
+          "count": null
+        },
+        {
+          "name": "Pangara",
+          "count": null
+        },
+        {
+          "name": "Payar",
+          "count": null
+        },
+        {
+          "name": "Wad",
+          "count": null
+        },
+        {
+          "name": "Nandruk",
+          "count": null
+        },
+        {
+          "name": "Dhaman",
+          "count": null
+        },
+        {
+          "name": "Murudsheng",
+          "count": null
+        },
+        {
+          "name": "Moha",
+          "count": null
+        },
+        {
+          "name": "Kalamb",
+          "count": null
+        },
+        {
+          "name": "Tetu",
+          "count": null
+        },
+        {
+          "name": "Shamee",
+          "count": null
+        },
+        {
+          "name": "Putranjiva",
+          "count": null
+        },
+        {
+          "name": "Ritha",
+          "count": null
+        },
+        {
+          "name": "Kahandol",
+          "count": null
+        },
+        {
+          "name": "Jambhul",
+          "count": null
+        },
+        {
+          "name": "Tamarind",
+          "count": null
+        },
+        {
+          "name": "Saag",
+          "count": null
+        },
+        {
+          "name": "Arjun",
+          "count": null
+        },
+        {
+          "name": "Sadada",
+          "count": null
+        },
+        {
+          "name": "Dhayati",
+          "count": null
+        },
+        {
+          "name": "Kala Kuda",
+          "count": null
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011006"
+  },
+  {
+    "id": "gs-ambai",
+    "villageId": "ambai",
+    "name": {
+      "en": "Gram Sabha Ambai",
+      "mr": "ग्रामसभा अंबाई"
+    },
+    "village": {
+      "en": "Ambai",
+      "mr": "अंबाई"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 225,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 225,
+      "saplingsPlanted": 39829,
+      "forestPonds": 1,
+      "waterStorageCapacityLitres": 7460000,
+      "looseBoulderStructures": 115,
+      "labourDaysGenerated": 3778,
+      "cfrmcMeetings": 2,
+      "wildlifeSessions": 1,
+      "speciesList": [
+        {
+          "name": "Ain",
+          "count": 550
+        },
+        {
+          "name": "Amba",
+          "count": 150
+        },
+        {
+          "name": "Amba (Grafted)",
+          "count": 500
+        },
+        {
+          "name": "Ashok",
+          "count": 1500
+        },
+        {
+          "name": "Awla",
+          "count": 536
+        },
+        {
+          "name": "Bahava",
+          "count": 300
+        },
+        {
+          "name": "Bakul",
+          "count": 650
+        },
+        {
+          "name": "Bamboo",
+          "count": 9237
+        },
+        {
+          "name": "Behda",
+          "count": 4500
+        },
+        {
+          "name": "Bhendi",
+          "count": 700
+        },
+        {
+          "name": "Gunj Vel",
+          "count": 120
+        },
+        {
+          "name": "Hadga",
+          "count": 1900
+        },
+        {
+          "name": "Hirda",
+          "count": 160
+        },
+        {
+          "name": "Jambhul",
+          "count": 620
+        },
+        {
+          "name": "Kahandol",
+          "count": 2000
+        },
+        {
+          "name": "Kaju",
+          "count": 3798
+        },
+        {
+          "name": "Karanj",
+          "count": 1000
+        },
+        {
+          "name": "Karvand",
+          "count": 1200
+        },
+        {
+          "name": "Kate Pangara",
+          "count": 710
+        },
+        {
+          "name": "Khirni",
+          "count": 375
+        },
+        {
+          "name": "Koshimb",
+          "count": 1000
+        },
+        {
+          "name": "Lal Bhendi",
+          "count": 440
+        },
+        {
+          "name": "Maharukh",
+          "count": 400
+        },
+        {
+          "name": "Moh",
+          "count": 2000
+        },
+        {
+          "name": "Mahogani",
+          "count": 250
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 1500
+        },
+        {
+          "name": "Buch Pangara",
+          "count": 80
+        },
+        {
+          "name": "Paayar",
+          "count": 20
+        },
+        {
+          "name": "Shami",
+          "count": 1000
+        },
+        {
+          "name": "Shendari / Bixa",
+          "count": 104
+        },
+        {
+          "name": "Shirish",
+          "count": 1000
+        },
+        {
+          "name": "Shisu",
+          "count": 1500
+        },
+        {
+          "name": "Shivan",
+          "count": 600
+        },
+        {
+          "name": "Tetu",
+          "count": 150
+        },
+        {
+          "name": "Vanjyot (Ratangunj)",
+          "count": 300
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011007"
+  },
+  {
+    "id": "gs-chakore",
+    "villageId": "chakore",
+    "name": {
+      "en": "Gram Sabha Chakore",
+      "mr": "ग्रामसभा चाकोरे"
+    },
+    "village": {
+      "en": "Chakore",
+      "mr": "चाकोरे"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 87,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 87,
+      "saplingsPlanted": 5458,
+      "forestPonds": 0,
+      "waterStorageCapacityLitres": 0,
+      "looseBoulderStructures": 36,
+      "labourDaysGenerated": 296,
+      "cfrmcMeetings": 2,
+      "wildlifeSessions": 1,
+      "speciesList": [
+        {
+          "name": "Bamboo",
+          "count": 4008
+        },
+        {
+          "name": "Banyan",
+          "count": 250
+        },
+        {
+          "name": "Peepal",
+          "count": 250
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011008"
+  },
+  {
+    "id": "gs-devgaon",
+    "villageId": "devgaon",
+    "name": {
+      "en": "Gram Sabha Devgaon",
+      "mr": "ग्रामसभा देवगाव"
+    },
+    "village": {
+      "en": "Devgaon",
+      "mr": "देवगाव"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 100,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 100,
+      "saplingsPlanted": 5000,
+      "forestPonds": 2,
+      "waterStorageCapacityLitres": 635000,
+      "looseBoulderStructures": 30,
+      "labourDaysGenerated": 530,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 1,
+      "speciesList": [
+        {
+          "name": "Bamboo",
+          "count": 500
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 500
+        },
+        {
+          "name": "Bahava",
+          "count": 500
+        },
+        {
+          "name": "Shirish",
+          "count": 500
+        },
+        {
+          "name": "Shisam",
+          "count": 500
+        },
+        {
+          "name": "Shivan",
+          "count": 500
+        },
+        {
+          "name": "Tambda Khair",
+          "count": 500
+        },
+        {
+          "name": "Shishu",
+          "count": 500
+        },
+        {
+          "name": "Moh",
+          "count": 500
+        },
+        {
+          "name": "Jambul",
+          "count": 500
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011009"
+  },
+  {
+    "id": "gs-met-chandrachi",
+    "villageId": "met-chandrachi",
+    "name": {
+      "en": "Gram Sabha Met Chandrachi",
+      "mr": "ग्रामसभा मेट चंद्राची"
+    },
+    "village": {
+      "en": "Met Chandrachi",
+      "mr": "मेट चंद्राची"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 100,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 100,
+      "saplingsPlanted": 6980,
+      "forestPonds": 1,
+      "waterStorageCapacityLitres": 1347000,
+      "looseBoulderStructures": 76,
+      "labourDaysGenerated": 1003,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Bamboo",
+          "count": 250
+        },
+        {
+          "name": "Shirish",
+          "count": 750
+        },
+        {
+          "name": "Avala",
+          "count": 750
+        },
+        {
+          "name": "Shisam",
+          "count": 750
+        },
+        {
+          "name": "Moh",
+          "count": 250
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 500
+        },
+        {
+          "name": "Shishu",
+          "count": 750
+        },
+        {
+          "name": "Bamboo",
+          "count": 750
+        },
+        {
+          "name": "Tambda Khair",
+          "count": 750
+        },
+        {
+          "name": "Shivan",
+          "count": 500
+        },
+        {
+          "name": "Moh",
+          "count": 300
+        },
+        {
+          "name": "Kaju",
+          "count": 200
+        },
+        {
+          "name": "Jambhul",
+          "count": 500
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011010"
+  },
+  {
+    "id": "gs-pahine",
+    "villageId": "pahine",
+    "name": {
+      "en": "Gram Sabha Pahine",
+      "mr": "ग्रामसभा पहिने"
+    },
+    "village": {
+      "en": "Pahine",
+      "mr": "पहिने"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 157,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 157,
+      "saplingsPlanted": 6300,
+      "forestPonds": 0,
+      "waterStorageCapacityLitres": 0,
+      "looseBoulderStructures": 6,
+      "labourDaysGenerated": 262,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 1,
+      "speciesList": [
+        {
+          "name": "Bamboo",
+          "count": 6300
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011011"
+  },
+  {
+    "id": "gs-take-harsh",
+    "villageId": "take-harsh",
+    "name": {
+      "en": "Gram Sabha Take Harsh",
+      "mr": "ग्रामसभा टाके हर्ष"
+    },
+    "village": {
+      "en": "Take Harsh",
+      "mr": "टाके हर्ष"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 220,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 220,
+      "saplingsPlanted": 15031,
+      "forestPonds": 0,
+      "waterStorageCapacityLitres": 0,
+      "looseBoulderStructures": 30,
+      "labourDaysGenerated": 503,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Bamboo",
+          "count": 15000
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011012"
+  },
+  {
+    "id": "gs-talwade",
+    "villageId": "talwade",
+    "name": {
+      "en": "Gram Sabha Talwade",
+      "mr": "ग्रामसभा तळवाडे"
+    },
+    "village": {
+      "en": "Talwade",
+      "mr": "तळवाडे"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 50,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 50,
+      "saplingsPlanted": 15132,
+      "forestPonds": 0,
+      "waterStorageCapacityLitres": 0,
+      "looseBoulderStructures": 0,
+      "labourDaysGenerated": 611,
+      "cfrmcMeetings": 2,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Ain",
+          "count": 300
+        },
+        {
+          "name": "Amba",
+          "count": 85
+        },
+        {
+          "name": "Ashok",
+          "count": 300
+        },
+        {
+          "name": "Awla",
+          "count": 300
+        },
+        {
+          "name": "Bahava",
+          "count": 100
+        },
+        {
+          "name": "Bakul",
+          "count": 70
+        },
+        {
+          "name": "Bamboo",
+          "count": 4009
+        },
+        {
+          "name": "Behda",
+          "count": 1460
+        },
+        {
+          "name": "Bhendi",
+          "count": 191
+        },
+        {
+          "name": "Hadga",
+          "count": 715
+        },
+        {
+          "name": "Jambta",
+          "count": 443
+        },
+        {
+          "name": "Kahandol",
+          "count": 447
+        },
+        {
+          "name": "Kaju",
+          "count": 575
+        },
+        {
+          "name": "Karanj",
+          "count": 425
+        },
+        {
+          "name": "Karvand",
+          "count": 300
+        },
+        {
+          "name": "Moh",
+          "count": 960
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 950
+        },
+        {
+          "name": "Shami",
+          "count": 600
+        },
+        {
+          "name": "Shendari",
+          "count": 433
+        },
+        {
+          "name": "Shirish",
+          "count": 277
+        },
+        {
+          "name": "Shisu",
+          "count": 256
+        },
+        {
+          "name": "Shivan",
+          "count": 968
+        },
+        {
+          "name": "Surangi",
+          "count": 200
+        },
+        {
+          "name": "Tetu",
+          "count": 50
+        },
+        {
+          "name": "Ratangunj",
+          "count": 100
+        },
+        {
+          "name": "Bamboo (TCM)",
+          "count": 1900
+        },
+        {
+          "name": "Grafted Mango",
+          "count": 500
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011013"
+  },
+  {
+    "id": "gs-waghera",
+    "villageId": "waghera",
+    "name": {
+      "en": "Gram Sabha Waghera",
+      "mr": "ग्रामसभा वाघेरा"
+    },
+    "village": {
+      "en": "Waghera",
+      "mr": "वाघेरा"
+    },
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "verificationStatus": "verified_seed",
+    "verificationNote": "Village facts: Raah Foundation report (1 Oct 2026). Demo login attached; position is block town (approximate).",
+    "cfr": {
+      "rights": [
+        "3(1)(c)",
+        "3(1)(d)",
+        "3(1)(i)"
+      ],
+      "approvedAreaHa": 200,
+      "claimCount": 1
+    },
+    "ecologicalRestoration": {
+      "cfrAreaHa": 200,
+      "saplingsPlanted": 27534,
+      "forestPonds": 1,
+      "waterStorageCapacityLitres": 7790000,
+      "looseBoulderStructures": 20,
+      "labourDaysGenerated": 635,
+      "cfrmcMeetings": 1,
+      "wildlifeSessions": 0,
+      "speciesList": [
+        {
+          "name": "Ain",
+          "count": 350
+        },
+        {
+          "name": "Amba",
+          "count": 191
+        },
+        {
+          "name": "Amba (Grafted)",
+          "count": 500
+        },
+        {
+          "name": "Ashok",
+          "count": 430
+        },
+        {
+          "name": "Awla",
+          "count": 600
+        },
+        {
+          "name": "Bahava",
+          "count": 150
+        },
+        {
+          "name": "Bakul",
+          "count": 50
+        },
+        {
+          "name": "Bamboo (Rohini)",
+          "count": 3191
+        },
+        {
+          "name": "Behda",
+          "count": 2500
+        },
+        {
+          "name": "Bhendi",
+          "count": 800
+        },
+        {
+          "name": "Bibba",
+          "count": 25
+        },
+        {
+          "name": "Bor",
+          "count": 750
+        },
+        {
+          "name": "Hadga",
+          "count": 300
+        },
+        {
+          "name": "Jambta",
+          "count": 300
+        },
+        {
+          "name": "Kahandol",
+          "count": 600
+        },
+        {
+          "name": "Kaju",
+          "count": 2600
+        },
+        {
+          "name": "Karanj",
+          "count": 400
+        },
+        {
+          "name": "Karvand",
+          "count": 1100
+        },
+        {
+          "name": "Maharukh",
+          "count": 900
+        },
+        {
+          "name": "Moh",
+          "count": 900
+        },
+        {
+          "name": "Pandhara Khair",
+          "count": 3300
+        },
+        {
+          "name": "Papda / Waval",
+          "count": 500
+        },
+        {
+          "name": "Shami",
+          "count": 500
+        },
+        {
+          "name": "Shirish",
+          "count": 660
+        },
+        {
+          "name": "Shisu",
+          "count": 1000
+        },
+        {
+          "name": "Shivan",
+          "count": 500
+        },
+        {
+          "name": "Tetu",
+          "count": 60
+        },
+        {
+          "name": "Vanjyot (Ratangunj)",
+          "count": 100
+        }
+      ]
+    },
+    "secretaryPhone": "+919822011014"
+  }
+]

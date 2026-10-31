@@ -1,0 +1,54 @@
+{
+  "partner": {
+    "id": "driver-suresh",
+    "name": "Suresh Bhor",
+    "phone": "+91 98221 44091",
+    "village": "Jawhar Rural",
+    "vehicleType": "pickup_truck",
+    "vehicleNumber": "MH-48-AK-8192",
+    "carryingCapacityKg": 850,
+    "licenceDetail": "MH48 20180029103 (LMV / Transport)",
+    "coveredAreas": "Jawhar, Mokhada, Vikramgad, Wada, Trimbak",
+    "status": "approved",
+    "isAvailable": true,
+    "totalEarnings": 8640,
+    "completedJobs": 24,
+    "rating": 4.9
+  },
+  "jobs": [
+    {
+      "id": "job-501",
+      "orderId": "ord-801",
+      "pickupVillage": "Gram Sabha Vikramgad",
+      "dropVillage": "Palghar Hub (Eco Retail Depot)",
+      "resourceTitle": "Tribal Bamboo Baskets (20 pcs)",
+      "weightKg": 28,
+      "distanceKm": 22,
+      "estimatedPay": 370,
+      "status": "in_transit",
+      "assignedPartnerId": "driver-suresh"
+    },
+    {
+      "id": "job-502",
+      "orderId": "ord-802",
+      "pickupVillage": "Gram Sabha Mokhada",
+      "dropVillage": "Jawhar Community Center",
+      "resourceTitle": "Ashwagandha Roots (35 kg)",
+      "weightKg": 35,
+      "distanceKm": 14,
+      "estimatedPay": 285,
+      "status": "available"
+    },
+    {
+      "id": "job-503",
+      "orderId": "ord-803",
+      "pickupVillage": "Gram Sabha Vihigaon",
+      "dropVillage": "Mokhada Water Point",
+      "resourceTitle": "Spring Water Container Tank",
+      "weightKg": 50,
+      "distanceKm": 18,
+      "estimatedPay": 350,
+      "status": "available"
+    }
+  ]
+}

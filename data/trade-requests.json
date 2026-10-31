@@ -1,0 +1,43 @@
+[
+  {
+    "id": "req-101",
+    "listingId": "list-1",
+    "resourceTitle": "Wild Forest Raw Honey (रान मध)",
+    "buyerId": "buyer-ayur",
+    "buyerName": "Patanjali Agro & Herbal Labs",
+    "buyerPortal": "buyer",
+    "sellerGramSabhaId": "gs-jawhar",
+    "sellerGramSabhaName": "Gram Sabha Jawhar",
+    "requestedQuantity": 30,
+    "unit": "kg",
+    "isBarter": false,
+    "isLargeOrder": true,
+    "reason": "Raw input for certified winter immunity herbal formulation batch #IV-402.",
+    "status": "pending",
+    "createdAt": "2 hours ago"
+  },
+  {
+    "id": "req-102",
+    "listingId": "list-2",
+    "resourceTitle": "Organic Ashwagandha Roots (अश्वगंधा मुळे)",
+    "buyerId": "villager-ramesh",
+    "buyerName": "Ramesh Patil",
+    "buyerPortal": "villager",
+    "buyerVillage": "Jawhar",
+    "sellerGramSabhaId": "gs-mokhada",
+    "sellerGramSabhaName": "Gram Sabha Mokhada",
+    "requestedQuantity": 15,
+    "unit": "kg",
+    "isBarter": true,
+    "offeredResource": "Wild Forest Honey (12 kg)",
+    "offeredQuantity": 12,
+    "isLargeOrder": false,
+    "status": "countered",
+    "counterOffer": {
+      "quantity": 14,
+      "pricePerUnit": 460,
+      "note": "Can supply 14 kg immediately if 12 kg honey is delivered to village depot."
+    },
+    "createdAt": "Yesterday"
+  }
+]

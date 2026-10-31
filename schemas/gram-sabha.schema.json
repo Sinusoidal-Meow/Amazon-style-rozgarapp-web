@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VanRozgarGramSabha",
+  "description": "Schema for Gram Sabha CFR administrative bodies and restoration data",
+  "type": "object",
+  "required": [
+    "id",
+    "villageId",
+    "name",
+    "village",
+    "taluka",
+    "district",
+    "cfr",
+    "ecologicalRestoration"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "villageId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "en",
+        "mr"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "mr": {
+          "type": "string"
+        }
+      }
+    },
+    "village": {
+      "type": "object",
+      "required": [
+        "en",
+        "mr"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "mr": {
+          "type": "string"
+        }
+      }
+    },
+    "taluka": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "verificationStatus": {
+      "type": "string"
+    },
+    "cfr": {
+      "type": "object",
+      "properties": {
+        "rights": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "approvedAreaHa": {
+          "type": "number"
+        },
+        "claimCount": {
+          "type": "number"
+        }
+      }
+    },
+    "ecologicalRestoration": {
+      "type": "object",
+      "properties": {
+        "cfrAreaHa": {
+          "type": "number"
+        },
+        "saplingsPlanted": {
+          "type": "number"
+        },
+        "forestPonds": {
+          "type": "number"
+        },
+        "waterStorageCapacityLitres": {
+          "type": "number"
+        },
+        "looseBoulderStructures": {
+          "type": "number"
+        },
+        "labourDaysGenerated": {
+          "type": "number"
+        },
+        "cfrmcMeetings": {
+          "type": "number"
+        },
+        "wildlifeSessions": {
+          "type": "number"
+        },
+        "speciesList": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "count": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

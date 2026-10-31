@@ -1,0 +1,160 @@
+[
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा डोंगरगाव (Demo)",
+    "phone": "+919822011001",
+    "village": "डोंगरगाव",
+    "taluka": "Deola",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा कांचने (Demo)",
+    "phone": "+919822011002",
+    "village": "कांचने",
+    "taluka": "Deola",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा कुंभार्डे (Demo)",
+    "phone": "+919822011003",
+    "village": "कुंभार्डे",
+    "taluka": "Deola",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा वर्षी (Demo)",
+    "phone": "+919822011004",
+    "village": "वर्षी",
+    "taluka": "Deola",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा भाटोडे (Demo)",
+    "phone": "+919822011005",
+    "village": "भाटोडे",
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा कोचरगाव (Demo)",
+    "phone": "+919822011006",
+    "village": "कोचरगाव",
+    "taluka": "Dindori",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा अंबाई (Demo)",
+    "phone": "+919822011007",
+    "village": "अंबाई",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा चाकोरे (Demo)",
+    "phone": "+919822011008",
+    "village": "चाकोरे",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा देवगाव (Demo)",
+    "phone": "+919822011009",
+    "village": "देवगाव",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा मेट चंद्राची (Demo)",
+    "phone": "+919822011010",
+    "village": "मेट चंद्राची",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा पहिने (Demo)",
+    "phone": "+919822011011",
+    "village": "पहिने",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा टाके हर्ष (Demo)",
+    "phone": "+919822011012",
+    "village": "टाके हर्ष",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा तळवाडे (Demo)",
+    "phone": "+919822011013",
+    "village": "तळवाडे",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "gramsabha",
+    "name": "डेमो सचिव, ग्रामसभा वाघेरा (Demo)",
+    "phone": "+919822011014",
+    "village": "वाघेरा",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "cfrholder",
+    "name": "डेमो सीएफआर धारक २ (Demo CFR holder 2)",
+    "phone": "+919822022222",
+    "village": "देवगाव",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "cfrholder",
+    "name": "डेमो सीएफआर धारक (Demo CFR holder)",
+    "phone": "+919822044444",
+    "village": "देवगाव",
+    "taluka": "Trimbakeshwar",
+    "district": "Nashik",
+    "language": "mr"
+  },
+  {
+    "role": "buyer",
+    "name": "Demo Buyer",
+    "businessName": "Demo Herbal Co.",
+    "city": "Nashik",
+    "phone": "+919822033333",
+    "language": "en"
+  },
+  {
+    "role": "team",
+    "name": "VanRozgar Team",
+    "phone": "+919822099999",
+    "language": "en"
+  }
+]

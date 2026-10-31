@@ -1,0 +1,146 @@
+[
+  {
+    "slug": "handicrafts-bamboo",
+    "iconKey": "handshake",
+    "order": 1,
+    "active": true,
+    "name": {
+      "en": "Bamboo",
+      "mr": "बांबू",
+      "hi": "बाँस"
+    },
+    "description": {
+      "en": "Bamboo poles and bamboo products",
+      "mr": "बांबूचे खांब आणि बांबूच्या वस्तू",
+      "hi": "बाँस के खंभे और बाँस के उत्पाद"
+    },
+    "webCategory": "handicrafts",
+    "defaultIcon": "assets/products/basket.png"
+  },
+  {
+    "slug": "fruit",
+    "iconKey": "eco",
+    "order": 2,
+    "active": true,
+    "name": {
+      "en": "Fruit",
+      "mr": "फळे",
+      "hi": "फल"
+    },
+    "description": {
+      "en": "Mango, awla, jamun, tamarind, custard apple, ber, bael",
+      "mr": "आंबा, आवळा, जांभूळ, चिंच, सीताफळ, बोर, बेल",
+      "hi": "आम, आँवला, जामुन, इमली, सीताफल, बेर, बेल"
+    },
+    "webCategory": "forest_produce",
+    "defaultIcon": "assets/products/dfruit.png"
+  },
+  {
+    "slug": "flowers",
+    "iconKey": "local_florist",
+    "order": 3,
+    "active": true,
+    "name": {
+      "en": "Flowers",
+      "mr": "फुले",
+      "hi": "फूल"
+    },
+    "description": {
+      "en": "Moh (mahua) flowers",
+      "mr": "मोह (मोहफूल) फुले",
+      "hi": "महुआ के फूल"
+    },
+    "webCategory": "forest_produce",
+    "defaultIcon": "assets/products/herb.png"
+  },
+  {
+    "slug": "nuts-and-seeds",
+    "iconKey": "grain",
+    "order": 4,
+    "active": true,
+    "name": {
+      "en": "Nuts and seeds",
+      "mr": "सुकामेवा आणि बिया",
+      "hi": "मेवे और बीज"
+    },
+    "description": {
+      "en": "Cashew, karanj seeds, moh seeds",
+      "mr": "काजू, करंज बिया, मोह बिया",
+      "hi": "काजू, करंज के बीज, महुआ के बीज"
+    },
+    "webCategory": "forest_produce",
+    "defaultIcon": "assets/products/seed.png"
+  },
+  {
+    "slug": "dry-fruit",
+    "iconKey": "spa",
+    "order": 5,
+    "active": true,
+    "name": {
+      "en": "Dry fruit",
+      "mr": "सुकी फळे",
+      "hi": "सूखे फल"
+    },
+    "description": {
+      "en": "Behda and hirda dry fruit",
+      "mr": "बेहडा आणि हिरडा सुकी फळे",
+      "hi": "बहेड़ा और हरड़ सूखे फल"
+    },
+    "webCategory": "forest_produce",
+    "defaultIcon": "assets/products/dfruit.png"
+  },
+  {
+    "slug": "forest-produce",
+    "iconKey": "category",
+    "order": 6,
+    "active": true,
+    "name": {
+      "en": "Other forest produce",
+      "mr": "इतर वनोपज",
+      "hi": "अन्य वनोपज"
+    },
+    "description": {
+      "en": "Honey, herbs, gum, lac and other forest produce",
+      "mr": "मध, औषधी वनस्पती, डिंक, लाख आणि इतर वनोपज",
+      "hi": "शहद, जड़ी-बूटियाँ, गोंद, लाख और अन्य वनोपज"
+    },
+    "webCategory": "forest_produce",
+    "defaultIcon": "assets/products/honey.png"
+  },
+  {
+    "slug": "medicinal-plants",
+    "iconKey": "spa",
+    "order": 7,
+    "active": true,
+    "name": {
+      "en": "Medicinal Plants & Herbs",
+      "mr": "औषधी वनस्पती",
+      "hi": "औषधीय पौधे"
+    },
+    "description": {
+      "en": "Wild medicinal herbs, roots and powders harvested under CFR guidelines",
+      "mr": "जंगलातील औषधी वनस्पती, मुळे आणि चूर्ण",
+      "hi": "जंगली औषधीय पौधे, जड़ें और चूर्ण"
+    },
+    "webCategory": "medicinal",
+    "defaultIcon": "assets/products/herb.png"
+  },
+  {
+    "slug": "water-land-resources",
+    "iconKey": "water_drop",
+    "order": 8,
+    "active": true,
+    "name": {
+      "en": "Water & Land Allocations",
+      "mr": "पाणी व जमीन संसाधने",
+      "hi": "जल एवं भूमि संसाधन"
+    },
+    "description": {
+      "en": "Community managed potable spring water and sustainable land rights allocations",
+      "mr": "सामुदायिक व्यवस्थापित झऱ्याचे पाणी आणि जमीन हक्क",
+      "hi": "सामुदायिक जल स्रोत और भूमि उपयोग अधिकार"
+    },
+    "webCategory": "water_land",
+    "defaultIcon": "assets/products/forest.png"
+  }
+]

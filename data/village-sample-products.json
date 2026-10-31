@@ -1,0 +1,1344 @@
+[
+  {
+    "id": "prod-nashik-01",
+    "originalId": "seed-1",
+    "itemCode": "VR-NSG622",
+    "title": {
+      "en": "Bamboo poles (Sample)",
+      "mr": "बांबू खांब (नमुना)",
+      "combined": "Bamboo poles (बांबू खांब)"
+    },
+    "categorySlug": "handicrafts-bamboo",
+    "webCategory": "handicrafts",
+    "productCode": "bamboo",
+    "description": "Air-dried bamboo poles from the village forest. Sample listing for the demo.",
+    "price": 180,
+    "pricePerUnitPaise": 18000,
+    "mrp": 220,
+    "mrpPerUnitPaise": 22000,
+    "fairPriceRange": [
+      162,
+      231
+    ],
+    "quantityAvailable": 200,
+    "minOrderQuantity": 20,
+    "unit": "piece",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011004",
+      "name": "डेमो सचिव, ग्रामसभा वर्षी (Demo)",
+      "village": "वर्षी",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "वर्षी CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/basket.png",
+      "iconType": "bamboo",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-02",
+    "originalId": "seed-2",
+    "itemCode": "VR-NSP722",
+    "title": {
+      "en": "Bamboo poles (Sample)",
+      "mr": "बांबू खांब (नमुना)",
+      "combined": "Bamboo poles (बांबू खांब)"
+    },
+    "categorySlug": "handicrafts-bamboo",
+    "webCategory": "handicrafts",
+    "productCode": "bamboo",
+    "description": "Bamboo poles, mixed lengths. Sample listing for the demo.",
+    "price": 200,
+    "pricePerUnitPaise": 20000,
+    "mrp": 200,
+    "mrpPerUnitPaise": 20000,
+    "fairPriceRange": [
+      180,
+      210
+    ],
+    "quantityAvailable": 150,
+    "minOrderQuantity": 10,
+    "unit": "piece",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011006",
+      "name": "डेमो सचिव, ग्रामसभा कोचरगाव (Demo)",
+      "village": "कोचरगाव",
+      "taluka": "Dindori",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "कोचरगाव CFR Forest Area, Dindori Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/basket.png",
+      "iconType": "bamboo",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-03",
+    "originalId": "seed-3",
+    "itemCode": "VR-NSV822",
+    "title": {
+      "en": "Bamboo poles (Sample)",
+      "mr": "बांबू खांब (नमुना)",
+      "combined": "Bamboo poles (बांबू खांब)"
+    },
+    "categorySlug": "handicrafts-bamboo",
+    "webCategory": "handicrafts",
+    "productCode": "bamboo",
+    "description": "Bamboo poles for building and fencing. Sample listing for the demo.",
+    "price": 170,
+    "pricePerUnitPaise": 17000,
+    "mrp": 240,
+    "mrpPerUnitPaise": 24000,
+    "fairPriceRange": [
+      153,
+      252
+    ],
+    "quantityAvailable": 300,
+    "minOrderQuantity": 50,
+    "unit": "piece",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011014",
+      "name": "डेमो सचिव, ग्रामसभा वाघेरा (Demo)",
+      "village": "वाघेरा",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "वाघेरा CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/basket.png",
+      "iconType": "bamboo",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-04",
+    "originalId": "seed-4",
+    "itemCode": "VR-NS3A22",
+    "title": {
+      "en": "Bamboo poles (Sample)",
+      "mr": "बांबू खांब (नमुना)",
+      "combined": "Bamboo poles (बांबू खांब)"
+    },
+    "categorySlug": "handicrafts-bamboo",
+    "webCategory": "handicrafts",
+    "productCode": "bamboo",
+    "description": "Bamboo poles from our family forest land. Sample listing for the demo.",
+    "price": 190,
+    "pricePerUnitPaise": 19000,
+    "mrp": 210,
+    "mrpPerUnitPaise": 21000,
+    "fairPriceRange": [
+      171,
+      221
+    ],
+    "quantityAvailable": 80,
+    "minOrderQuantity": 10,
+    "unit": "piece",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "villager",
+      "sellerPhone": "+919822044444",
+      "name": "डेमो सीएफआर धारक (Demo CFR holder)",
+      "village": "देवगाव",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "देवगाव CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/basket.png",
+      "iconType": "bamboo",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-05",
+    "originalId": "seed-5",
+    "itemCode": "VR-NS9B22",
+    "title": {
+      "en": "Moh flowers (Sample)",
+      "mr": "मोह फुले (नमुना)",
+      "combined": "Moh flowers (मोह फुले)"
+    },
+    "categorySlug": "flowers",
+    "webCategory": "forest_produce",
+    "productCode": "moh-flowers",
+    "description": "Dried moh (mahua) flowers. Sample listing for the demo.",
+    "price": 130,
+    "pricePerUnitPaise": 13000,
+    "mrp": 160,
+    "mrpPerUnitPaise": 16000,
+    "fairPriceRange": [
+      117,
+      168
+    ],
+    "quantityAvailable": 120,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011006",
+      "name": "डेमो सचिव, ग्रामसभा कोचरगाव (Demo)",
+      "village": "कोचरगाव",
+      "taluka": "Dindori",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "कोचरगाव CFR Forest Area, Dindori Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-06",
+    "originalId": "seed-6",
+    "itemCode": "VR-NSFC22",
+    "title": {
+      "en": "Moh flowers (Sample)",
+      "mr": "मोह फुले (नमुना)",
+      "combined": "Moh flowers (मोह फुले)"
+    },
+    "categorySlug": "flowers",
+    "webCategory": "forest_produce",
+    "productCode": "moh-flowers",
+    "description": "Dried moh flowers. Sample listing for the demo.",
+    "price": 150,
+    "pricePerUnitPaise": 15000,
+    "mrp": 150,
+    "mrpPerUnitPaise": 15000,
+    "fairPriceRange": [
+      135,
+      158
+    ],
+    "quantityAvailable": 60,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "villager",
+      "sellerPhone": "+919822022222",
+      "name": "डेमो सीएफआर धारक २ (Demo CFR holder 2)",
+      "village": "देवगाव",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "देवगाव CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-07",
+    "originalId": "seed-7",
+    "itemCode": "VR-NSND22",
+    "title": {
+      "en": "Moh flowers (Sample)",
+      "mr": "मोह फुले (नमुना)",
+      "combined": "Moh flowers (मोह फुले)"
+    },
+    "categorySlug": "flowers",
+    "webCategory": "forest_produce",
+    "productCode": "moh-flowers",
+    "description": "Dried moh flowers. Sample listing for the demo.",
+    "price": 140,
+    "pricePerUnitPaise": 14000,
+    "mrp": 170,
+    "mrpPerUnitPaise": 17000,
+    "fairPriceRange": [
+      126,
+      179
+    ],
+    "quantityAvailable": 200,
+    "minOrderQuantity": 10,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011007",
+      "name": "डेमो सचिव, ग्रामसभा अंबाई (Demo)",
+      "village": "अंबाई",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "अंबाई CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-08",
+    "originalId": "seed-8",
+    "itemCode": "VR-NSUE22",
+    "title": {
+      "en": "Mango (Sample)",
+      "mr": "आंबा (नमुना)",
+      "combined": "Mango (आंबा)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "mango",
+    "description": "Village mangoes. Sample listing for the demo.",
+    "price": 70,
+    "pricePerUnitPaise": 7000,
+    "mrp": 90,
+    "mrpPerUnitPaise": 9000,
+    "fairPriceRange": [
+      63,
+      95
+    ],
+    "quantityAvailable": 300,
+    "minOrderQuantity": 10,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011002",
+      "name": "डेमो सचिव, ग्रामसभा कांचने (Demo)",
+      "village": "कांचने",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "कांचने CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-09",
+    "originalId": "seed-9",
+    "itemCode": "VR-NS2G22",
+    "title": {
+      "en": "Mango (Sample)",
+      "mr": "आंबा (नमुना)",
+      "combined": "Mango (आंबा)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "mango",
+    "description": "Village mangoes. Sample listing for the demo.",
+    "price": 100,
+    "pricePerUnitPaise": 10000,
+    "mrp": 100,
+    "mrpPerUnitPaise": 10000,
+    "fairPriceRange": [
+      90,
+      105
+    ],
+    "quantityAvailable": 250,
+    "minOrderQuantity": 10,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011014",
+      "name": "डेमो सचिव, ग्रामसभा वाघेरा (Demo)",
+      "village": "वाघेरा",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "वाघेरा CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-10",
+    "originalId": "seed-10",
+    "itemCode": "VR-NS8H22",
+    "title": {
+      "en": "Awla (amla) (Sample)",
+      "mr": "आवळा (नमुना)",
+      "combined": "Awla (amla) (आवळा)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "awla",
+    "description": "Fresh awla. Sample listing for the demo.",
+    "price": 60,
+    "pricePerUnitPaise": 6000,
+    "mrp": 80,
+    "mrpPerUnitPaise": 8000,
+    "fairPriceRange": [
+      54,
+      84
+    ],
+    "quantityAvailable": 150,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011002",
+      "name": "डेमो सचिव, ग्रामसभा कांचने (Demo)",
+      "village": "कांचने",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "कांचने CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-11",
+    "originalId": "seed-11",
+    "itemCode": "VR-NSEJ22",
+    "title": {
+      "en": "Awla (amla) (Sample)",
+      "mr": "आवळा (नमुना)",
+      "combined": "Awla (amla) (आवळा)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "awla",
+    "description": "Fresh awla. Sample listing for the demo.",
+    "price": 70,
+    "pricePerUnitPaise": 7000,
+    "mrp": 70,
+    "mrpPerUnitPaise": 7000,
+    "fairPriceRange": [
+      63,
+      74
+    ],
+    "quantityAvailable": 100,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011010",
+      "name": "डेमो सचिव, ग्रामसभा मेट चंद्राची (Demo)",
+      "village": "मेट चंद्राची",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "मेट चंद्राची CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-12",
+    "originalId": "seed-12",
+    "itemCode": "VR-NSMK22",
+    "title": {
+      "en": "Jamun (Sample)",
+      "mr": "जांभूळ (नमुना)",
+      "combined": "Jamun (जांभूळ)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "jamun",
+    "description": "Jamun fruit. Sample listing for the demo.",
+    "price": 110,
+    "pricePerUnitPaise": 11000,
+    "mrp": 140,
+    "mrpPerUnitPaise": 14000,
+    "fairPriceRange": [
+      99,
+      147
+    ],
+    "quantityAvailable": 90,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011006",
+      "name": "डेमो सचिव, ग्रामसभा कोचरगाव (Demo)",
+      "village": "कोचरगाव",
+      "taluka": "Dindori",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "कोचरगाव CFR Forest Area, Dindori Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-13",
+    "originalId": "seed-13",
+    "itemCode": "VR-NSTM22",
+    "title": {
+      "en": "Tamarind pods (Sample)",
+      "mr": "चिंच (नमुना)",
+      "combined": "Tamarind pods (चिंच)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "tamarind",
+    "description": "Tamarind pods. Sample listing for the demo.",
+    "price": 80,
+    "pricePerUnitPaise": 8000,
+    "mrp": 100,
+    "mrpPerUnitPaise": 10000,
+    "fairPriceRange": [
+      72,
+      105
+    ],
+    "quantityAvailable": 200,
+    "minOrderQuantity": 10,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011001",
+      "name": "डेमो सचिव, ग्रामसभा डोंगरगाव (Demo)",
+      "village": "डोंगरगाव",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "डोंगरगाव CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/tamarind.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-14",
+    "originalId": "seed-14",
+    "itemCode": "VR-NSZN22",
+    "title": {
+      "en": "Tamarind pods (Sample)",
+      "mr": "चिंच (नमुना)",
+      "combined": "Tamarind pods (चिंच)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "tamarind",
+    "description": "Tamarind pods. Sample listing for the demo.",
+    "price": 85,
+    "pricePerUnitPaise": 8500,
+    "mrp": 85,
+    "mrpPerUnitPaise": 8500,
+    "fairPriceRange": [
+      77,
+      89
+    ],
+    "quantityAvailable": 120,
+    "minOrderQuantity": 10,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011004",
+      "name": "डेमो सचिव, ग्रामसभा वर्षी (Demo)",
+      "village": "वर्षी",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "वर्षी CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/tamarind.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-15",
+    "originalId": "seed-15",
+    "itemCode": "VR-NS7Q22",
+    "title": {
+      "en": "Custard apple (Sample)",
+      "mr": "सीताफळ (नमुना)",
+      "combined": "Custard apple (सीताफळ)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "custard-apple",
+    "description": "Custard apple. Sample listing for the demo.",
+    "price": 120,
+    "pricePerUnitPaise": 12000,
+    "mrp": 150,
+    "mrpPerUnitPaise": 15000,
+    "fairPriceRange": [
+      108,
+      158
+    ],
+    "quantityAvailable": 80,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011001",
+      "name": "डेमो सचिव, ग्रामसभा डोंगरगाव (Demo)",
+      "village": "डोंगरगाव",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "डोंगरगाव CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-16",
+    "originalId": "seed-16",
+    "itemCode": "VR-NSDR22",
+    "title": {
+      "en": "Ber (Sample)",
+      "mr": "बोर (नमुना)",
+      "combined": "Ber (बोर)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "ber",
+    "description": "Ber fruit. Sample listing for the demo.",
+    "price": 70,
+    "pricePerUnitPaise": 7000,
+    "mrp": 90,
+    "mrpPerUnitPaise": 9000,
+    "fairPriceRange": [
+      63,
+      95
+    ],
+    "quantityAvailable": 80,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011014",
+      "name": "डेमो सचिव, ग्रामसभा वाघेरा (Demo)",
+      "village": "वाघेरा",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "वाघेरा CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-17",
+    "originalId": "seed-17",
+    "itemCode": "VR-NSKS22",
+    "title": {
+      "en": "Bael (Sample)",
+      "mr": "बेल (नमुना)",
+      "combined": "Bael (बेल)"
+    },
+    "categorySlug": "fruit",
+    "webCategory": "forest_produce",
+    "productCode": "bael",
+    "description": "Bael fruit. Sample listing for the demo.",
+    "price": 50,
+    "pricePerUnitPaise": 5000,
+    "mrp": 60,
+    "mrpPerUnitPaise": 6000,
+    "fairPriceRange": [
+      45,
+      63
+    ],
+    "quantityAvailable": 60,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011002",
+      "name": "डेमो सचिव, ग्रामसभा कांचने (Demo)",
+      "village": "कांचने",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "कांचने CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-18",
+    "originalId": "seed-18",
+    "itemCode": "VR-NSST22",
+    "title": {
+      "en": "Cashew nuts (raw) (Sample)",
+      "mr": "काजू (कच्चे) (नमुना)",
+      "combined": "Cashew nuts (raw) (काजू (कच्चे))"
+    },
+    "categorySlug": "nuts-and-seeds",
+    "webCategory": "forest_produce",
+    "productCode": "cashew",
+    "description": "Raw cashew nuts. Sample listing for the demo.",
+    "price": 700,
+    "pricePerUnitPaise": 70000,
+    "mrp": 800,
+    "mrpPerUnitPaise": 80000,
+    "fairPriceRange": [
+      630,
+      840
+    ],
+    "quantityAvailable": 40,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011007",
+      "name": "डेमो सचिव, ग्रामसभा अंबाई (Demo)",
+      "village": "अंबाई",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "अंबाई CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/forest.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-19",
+    "originalId": "seed-19",
+    "itemCode": "VR-NSYU22",
+    "title": {
+      "en": "Karanj seeds (Sample)",
+      "mr": "करंज बिया (नमुना)",
+      "combined": "Karanj seeds (करंज बिया)"
+    },
+    "categorySlug": "nuts-and-seeds",
+    "webCategory": "forest_produce",
+    "productCode": "karanj-seeds",
+    "description": "Karanj seeds. Sample listing for the demo.",
+    "price": 45,
+    "pricePerUnitPaise": 4500,
+    "mrp": 45,
+    "mrpPerUnitPaise": 4500,
+    "fairPriceRange": [
+      41,
+      47
+    ],
+    "quantityAvailable": 200,
+    "minOrderQuantity": 10,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011013",
+      "name": "डेमो सचिव, ग्रामसभा तळवाडे (Demo)",
+      "village": "तळवाडे",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "तळवाडे CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/seed.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-20",
+    "originalId": "seed-20",
+    "itemCode": "VR-NS6W22",
+    "title": {
+      "en": "Moh seeds (Sample)",
+      "mr": "मोह बिया (नमुना)",
+      "combined": "Moh seeds (मोह बिया)"
+    },
+    "categorySlug": "nuts-and-seeds",
+    "webCategory": "forest_produce",
+    "productCode": "moh-seeds",
+    "description": "Moh seeds. Sample listing for the demo.",
+    "price": 60,
+    "pricePerUnitPaise": 6000,
+    "mrp": 75,
+    "mrpPerUnitPaise": 7500,
+    "fairPriceRange": [
+      54,
+      79
+    ],
+    "quantityAvailable": 150,
+    "minOrderQuantity": 10,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011014",
+      "name": "डेमो सचिव, ग्रामसभा वाघेरा (Demo)",
+      "village": "वाघेरा",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "वाघेरा CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/seed.png",
+      "iconType": "seeds",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-21",
+    "originalId": "seed-21",
+    "itemCode": "VR-NSCX22",
+    "title": {
+      "en": "Behda dry fruit (Sample)",
+      "mr": "बेहडा (नमुना)",
+      "combined": "Behda dry fruit (बेहडा)"
+    },
+    "categorySlug": "dry-fruit",
+    "webCategory": "forest_produce",
+    "productCode": "behda",
+    "description": "Behda dry fruit. Sample listing for the demo.",
+    "price": 60,
+    "pricePerUnitPaise": 6000,
+    "mrp": 60,
+    "mrpPerUnitPaise": 6000,
+    "fairPriceRange": [
+      54,
+      63
+    ],
+    "quantityAvailable": 100,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011004",
+      "name": "डेमो सचिव, ग्रामसभा वर्षी (Demo)",
+      "village": "वर्षी",
+      "taluka": "Deola",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "वर्षी CFR Forest Area, Deola Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/dfruit.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  },
+  {
+    "id": "prod-nashik-22",
+    "originalId": "seed-22",
+    "itemCode": "VR-NSJY22",
+    "title": {
+      "en": "Hirda dry fruit (Sample)",
+      "mr": "हिरडा (नमुना)",
+      "combined": "Hirda dry fruit (हिरडा)"
+    },
+    "categorySlug": "dry-fruit",
+    "webCategory": "forest_produce",
+    "productCode": "hirda",
+    "description": "Hirda dry fruit. Sample listing for the demo.",
+    "price": 90,
+    "pricePerUnitPaise": 9000,
+    "mrp": 110,
+    "mrpPerUnitPaise": 11000,
+    "fairPriceRange": [
+      81,
+      116
+    ],
+    "quantityAvailable": 60,
+    "minOrderQuantity": 5,
+    "unit": "kg",
+    "mode": "sell",
+    "barterWants": null,
+    "seller": {
+      "type": "gramsabha",
+      "sellerPhone": "+919822011007",
+      "name": "डेमो सचिव, ग्रामसभा अंबाई (Demo)",
+      "village": "अंबाई",
+      "taluka": "Trimbakeshwar",
+      "district": "Nashik",
+      "distanceKm": null
+    },
+    "provenance": {
+      "sourceArea": "अंबाई CFR Forest Area, Trimbakeshwar Block",
+      "collectionMethod": "Sustainable community harvest under CFR rotational guidelines",
+      "isSustainable": true,
+      "harvestSeason": "Seasonal"
+    },
+    "verification": {
+      "isVerified": true,
+      "status": "verified_seed"
+    },
+    "isGroupListing": false,
+    "groupContributors": null,
+    "metrics": {
+      "rating": 4.8,
+      "reviewCount": 12
+    },
+    "assets": {
+      "illustration": "assets/products/dfruit.png",
+      "iconType": "herbs",
+      "realPhotoAvailable": false,
+      "realPhotoPath": null
+    },
+    "status": "active",
+    "isSample": true,
+    "source": "nashik_cfr_seed"
+  }
+]

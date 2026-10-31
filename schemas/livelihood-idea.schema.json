@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VanRozgarLivelihoodIdea",
+  "description": "Schema for CFR land livelihood interventions and ecological gates",
+  "type": "object",
+  "required": [
+    "code",
+    "name_en",
+    "name_mr",
+    "family",
+    "cost_level",
+    "ease",
+    "green"
+  ],
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "name_mr": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "needs": {
+      "type": "array"
+    },
+    "cost_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "best_season": {
+      "type": "string"
+    },
+    "wildlife_risk": {
+      "type": "string"
+    },
+    "min_land_ha": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ease": {
+      "type": "number"
+    },
+    "green": {
+      "type": "number"
+    }
+  }
+}
