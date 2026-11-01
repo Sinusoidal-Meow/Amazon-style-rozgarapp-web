@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Official VanRozgar Light Theme */
+  --color-page-bg: #F7F2E8;
+  --color-heading: #2F4A2A;
+  --color-body: #3F4A36;
+  --color-muted: #7B6A55;
+  --color-primary: #4E7A3A;
+  --color-primary-hover: #3E622E;
+  --color-btn-text: #FFFFFF;
+  --color-border: #E2D6BE;
+  --color-card: #FFFFFF;
+  --color-card-elevated: #F2EBDC;
+  --color-pista: #DDE8C6;
+  --color-brown: #5A3B22;
+  --color-orange: #A4551A;
+  --color-chip-bg: #DDE8C6;
+  --color-chip-text: #2F4A2A;
+  --color-outline: #5A3B22;
+}
+
+.dark {
+  /* Official VanRozgar Dark Theme */
+  --color-page-bg: #1C2619;
+  --color-heading: #F4F7EA;
+  --color-body: #E9EFDC;
+  --color-muted: #A9B49A;
+  --color-primary: #8DB85A;
+  --color-primary-hover: #9EC86B;
+  --color-btn-text: #1C2619;
+  --color-border: #3C4E38;
+  --color-card: #2E3E2B;
+  --color-card-elevated: #243222;
+  --color-pista: #3A5233;
+  --color-brown: #D8B48A;
+  --color-orange: #F0A15A;
+  --color-chip-bg: #3A5233;
+  --color-chip-text: #DDE8C6;
+  --color-outline: #D8B48A;
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-page-bg);
+    color: var(--color-body);
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+}
+
+/* Reusable semantic utility helper classes */
+.van-btn-primary {
+  background-color: #4E7A3A;
+  color: #FFFFFF;
+  transition: all 0.2s ease;
+}
+.dark .van-btn-primary {
+  background-color: #8DB85A;
+  color: #1C2619;
+}
+.van-btn-primary:hover {
+  background-color: #3E622E;
+}
+.dark .van-btn-primary:hover {
+  background-color: #9EC86B;
+}
+
+.van-btn-outline {
+  border: 1.5px solid #5A3B22;
+  color: #5A3B22;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+.dark .van-btn-outline {
+  border-color: #D8B48A;
+  color: #D8B48A;
+}
+.van-btn-outline:hover {
+  background-color: rgba(90, 59, 34, 0.08);
+}
+.dark .van-btn-outline:hover {
+  background-color: rgba(216, 180, 138, 0.12);
+}
+
+/* Category Card Folder-Document Emergence Animation */
+@keyframes categoryEmerge {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0) scale(0.92) rotate(var(--emerge-rot, 0deg));
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+  }
+}
+
+.category-card-enter {
+  opacity: 0;
+  animation: categoryEmerge 520ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: calc(var(--emerge-idx, 0) * 100ms);
+  animation-fill-mode: both;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .category-card-enter {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+}
