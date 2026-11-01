@@ -1,0 +1,8 @@
+{
+  "name": "VanRozgar Marketplace - Forest Resources & Commons Trade",
+  "description": "Amazon-style Community Forest Resource (CFR) marketplace and centre-focused botanical catalogue showcasing tribal forest produce from Nashik Gram Sabhas.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
