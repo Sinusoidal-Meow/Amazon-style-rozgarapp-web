@@ -1,0 +1,854 @@
+# PROJECT: VANROZGAR — COMPLETE FOREST RESOURCE MARKETPLACE WEBSITE
+
+## YOUR ROLE
+
+Act as a senior UI/UX designer, ecommerce product designer, frontend architect, and full-stack web developer.
+
+I want you to build a complete, polished, responsive VanRozgar marketplace website using the screenshots and files I have attached.
+
+I have provided the following reference materials:
+
+1. A screenshot of the GreenBasket ecommerce website. This is the primary visual reference for the overall website layout, UI design, theme, spacing, navigation, product presentation, and visual hierarchy.
+2. The PDF titled `VanRozgar_resource_images_catalogue.pdf`. This document contains the catalogue of VanRozgar forest resources, their names, categories, descriptions, image filenames, and image-readiness notes.
+3. Individual product images corresponding to the resources listed in the catalogue.
+4. Existing VanRozgar application or website data, where available.
+
+Inspect the supplied materials before creating the website.
+
+The objective is to recreate the GreenBasket reference's overall UI and visual experience as closely as possible while transforming it into a complete VanRozgar forest-resource marketplace.
+
+**The final website must look like a VanRozgar version of the supplied reference, not a generic marketplace template.**
+
+Do not copy the GreenBasket logo, company name, grocery products, promotional text, or unrelated branding. Reproduce its design and layout using VanRozgar's identity, forest-resource content, and actual product data.
+
+---
+
+# 1. UNDERSTAND THE PRODUCT
+
+VanRozgar is a community-driven marketplace focused on forest resources and sustainable rural livelihoods.
+
+It connects forest-resource producers, Gram Sabhas, rural communities, and buyers through a platform for discovering and exploring community-sourced resources.
+
+The website should showcase:
+- Forest fruits.
+- Bamboo.
+- Nuts and oil seeds.
+- Flowers.
+- Medicinal plants and herbs.
+- Forest produce.
+- Timber-tree saplings.
+- Shade and sacred trees.
+- Other resources included in the supplied catalogue.
+- Resource availability and village information where the actual dataset provides them.
+- Resource images and descriptions.
+- Community and sustainability information.
+
+Keep the distinction between resource discovery and actual stock availability clear.
+
+Do not invent current inventory, selling prices, customer ratings, verified certifications, or transaction information if the supplied data does not contain them.
+
+If a value is not available, display an appropriate unavailable or pending state rather than fabricating a value.
+
+---
+
+# 2. REPLICATE THE GREENBASKET WEBSITE STRUCTURE
+
+Study the supplied GreenBasket screenshot carefully.
+
+Recreate its major layout regions, relative proportions, spacing, visual density, component alignment, and overall styling.
+
+The reference should guide the design of the entire website, not only the product cards.
+
+## A. Top announcement bar
+
+At the top of the page, create a slim announcement bar resembling the reference.
+
+It should contain three compact information items, such as:
+
+- Community Forest Resources.
+- Sustainable Community Livelihoods.
+- Support for Responsible Forest Commerce.
+
+Use small icons and restrained text.
+
+Keep the bar visually compact.
+
+Do not use false delivery guarantees, shipping promises, product discounts, or other ecommerce statements that are not supported by VanRozgar's actual functionality.
+
+## B. Main navigation bar
+
+Recreate the reference's main navbar composition.
+
+Include:
+
+- VanRozgar logo.
+- VanRozgar wordmark.
+- A small marketplace descriptor.
+- Home or Overview.
+- Marketplace.
+- Categories.
+- About VanRozgar.
+- Contact or Community Information, where supported.
+- Search control.
+- Language selector, if available in the existing application.
+- Theme toggle, if supported by the current project.
+
+Use the provided VanRozgar logo and brand assets.
+
+Do not invent a new logo.
+
+Keep the header compact and aligned similarly to the reference.
+
+On desktop, arrange the navigation horizontally.
+
+On mobile, use a responsive navigation menu that preserves access to the main sections.
+
+The navbar should remain visually consistent as the visitor scrolls, using sticky positioning if appropriate.
+
+Every navigation control must work. Do not create decorative controls that have no functionality.
+
+## C. Hero section
+
+Recreate the composition of the GreenBasket hero:
+
+- Large, visually dominant heading on the left.
+- Supporting description beneath the heading.
+- A prominent resource image on the right.
+- A primary call to action.
+- A small row of trust, community, or sustainability highlights.
+- Decorative visual elements that complement the forest theme.
+
+Use a bold, high-contrast heading with a visual hierarchy comparable to the reference.
+
+Suggested heading:
+
+"Forest Resources. Stronger Rural Livelihoods."
+
+Suggested supporting description:
+
+"Discover community-sourced forest resources, local produce, medicinal plants, and sustainable materials from forest-stewarding communities."
+
+These are starting points. Keep the final messaging consistent with the actual VanRozgar product and the content supported by the existing data.
+
+Use one of the supplied forest-resource images as the hero visual, or create a tasteful composition using multiple supplied resource images.
+
+Do not use unrelated grocery photographs or external stock photographs.
+
+Maintain the same general hero proportions and visual weight as the reference.
+
+The hero should look immersive and premium, with an intentional balance between the text and the image.
+
+Do not turn it into a generic government landing page.
+
+## D. Community feature banner
+
+The GreenBasket reference includes a secondary banner promoting its farm and farmer relationships.
+
+Create the VanRozgar equivalent.
+
+The purpose of this banner is to communicate the relationship between forest communities and the marketplace.
+
+Possible heading:
+
+"From Forest Communities to Your Marketplace"
+
+Supporting copy can explain how VanRozgar helps people discover community-sourced forest resources.
+
+Use genuine VanRozgar branding, relevant supplied resource imagery, and a layout similar to the reference.
+
+If the actual project includes Gram Sabha statistics, resource counts, village information, or community metrics, display those values accurately.
+
+Do not invent the number of villages, active producers, customers, transactions, or earnings.
+
+If reliable metrics are unavailable, use meaningful non-numerical benefit statements instead.
+
+## E. Shop by Category
+
+Recreate the horizontal category-navigation section shown in the reference.
+
+This section should contain evenly spaced category cards with resource imagery, category names, and a short descriptor where available.
+
+Adapt the categories to the actual VanRozgar resource catalogue.
+
+Use the resource groups listed below rather than the grocery categories from GreenBasket.
+
+## F. Featured resources and full product catalogue
+
+Create an organised product showcase using the supplied resource images and actual data.
+
+The catalogue must be a central part of the website, not a small secondary section.
+
+Follow the GreenBasket reference for product-card proportions, spacing, typography, alignment, and information hierarchy.
+
+## G. Benefits section
+
+The GreenBasket reference contains a "Why Choose Us?" section.
+
+Create the VanRozgar equivalent, using a row of compact feature cards.
+
+Possible themes include:
+
+- Community-Sourced Resources.
+- Sustainable Livelihoods.
+- Forest Resource Awareness.
+- Transparent Resource Information.
+
+Only make claims that the actual application and supplied documentation support.
+
+Use small icons, concise headings, and short descriptions.
+
+Avoid unsupported claims about organic certification, guaranteed quality, sustainability verification, or product purity.
+
+## H. Promotional or featured-resource banner
+
+The reference contains a wide promotional banner with imagery.
+
+Create a corresponding VanRozgar banner highlighting a real resource category or the value of community-based forest commerce.
+
+For example:
+
+"Discover the Richness of Forest Resources"
+
+Use a large, high-quality resource image and restrained supporting text.
+
+Do not create false discounts, countdowns, limited-time deals, or sale prices.
+
+If the website does not have a genuine promotions system, use an informative featured-resource banner rather than a fake commercial offer.
+
+## I. Additional resource collections
+
+The reference shows a "Top Picks for You" section.
+
+Create a corresponding section such as "Explore Forest Resources" or "Featured Resources".
+
+Use actual catalogue records.
+
+Keep its layout consistent with the reference's uniform product cards.
+
+Avoid presenting products as bestsellers or top-rated items unless real sales or rating data supports those labels.
+
+## J. Newsletter or community-information section
+
+The reference includes a newsletter section near the bottom.
+
+Include a similar section only if it makes sense for VanRozgar.
+
+It could invite visitors to receive community-resource updates or product-availability announcements.
+
+If the application does not have a real subscription backend, either create a clearly functional frontend interaction with appropriate feedback or omit the form.
+
+Do not pretend that a subscription has been saved to a database when no such integration exists.
+
+## K. Footer
+
+Recreate the reference's multi-column footer layout using VanRozgar content.
+
+Include relevant sections such as:
+
+- VanRozgar branding.
+- Marketplace navigation.
+- Resource categories.
+- Community information.
+- Help or contact information, when available.
+- Legal or policy links only when actual pages or destinations exist.
+
+Use the forest-inspired visual design.
+
+Do not copy GreenBasket's company information, policies, app-store badges, payment options, or social-media links.
+
+Do not create fake links merely to fill the layout.
+
+---
+
+# 3. RESOURCE CATALOGUE — USE THE ATTACHED PDF
+
+The supplied `VanRozgar_resource_images_catalogue.pdf` is the reference for the resource images and their associated information.
+
+Inspect the PDF to understand the catalogue's structure and the matching between resource names and image filenames.
+
+The catalogue contains 51 resources across eight established picture groups, plus resources that have not yet been identified.
+
+The eight established picture groups are:
+
+1. Bamboo.
+2. Fruit.
+3. Nuts and oil seeds.
+4. Flowers.
+5. Medicine and herbs.
+6. Forest produce.
+7. Timber trees.
+8. Shade and sacred trees.
+
+There are also seven unidentified plants listed under "Not sure yet" and one additional pending resource, Shisam.
+
+Use the actual catalogue entries and any available structured source data to build the resource catalogue.
+
+Do not restrict the website to only the resources that appear in the hero screenshot or any single PDF page.
+
+The website must contain all 51 resources represented in the catalogue.
+
+## Important status interpretation
+
+The catalogue identifies:
+- 43 pictures ready to use.
+- 10 ready pictures flagged for a later visual check.
+- 8 resources whose pictures are pending.
+
+The ten "check later" images are included within the 43 ready pictures; they are not an additional group of ten resources.
+
+Preserve the distinction between:
+- Ready images.
+- Ready images requiring later identification or visual verification.
+- Resources whose images have not yet been created.
+
+Do not omit a resource simply because its image is pending.
+
+---
+
+# 4. MATCH EACH PRODUCT IMAGE TO THE CORRECT RESOURCE
+
+I have uploaded the product images individually.
+
+Inspect all available image attachments and match them to the resource entries in the PDF.
+
+Use the catalogue's resource names, group names, image filenames, captions, and visual references to determine the correct mapping.
+
+The catalogue explains that filenames correspond to resource IDs, with examples such as:
+
+- `bamboo.png`
+- `fruit_mango.png`
+- `fruit_awla.png`
+- `fruit_sitaphal.png`
+- `nuts_kaju.png`
+- `flowers_moh.png`
+- `herb_behda.png`
+- `forest_babhul.png`
+
+These examples are illustrative. Use the complete resource list provided in the catalogue.
+
+## Image-mapping requirements
+
+Create a reliable mapping between each resource and its corresponding image asset.
+
+Each product record should reference the matching supplied image.
+
+For example, conceptually:
+
+{
+  "id": "fruit_mango",
+  "name": "Amba",
+  "englishName": "Mango",
+  "category": "fruit",
+  "image": "/assets/resources/fruit_mango.png"
+}
+
+This is only an example of the mapping structure, not a replacement for the actual catalogue records.
+
+Use the real product names, IDs, categories, filenames, and descriptions from the supplied materials.
+
+Do not map an image based only on a loose similarity between its appearance and a product name.
+
+Do not use the same image for unrelated products merely because their visual appearance is similar.
+
+The catalogue explicitly states that the same mango image is used for both Amba and Amba (grafted). Preserve this intended reuse rather than looking for a second mango image.
+
+If any uploaded image cannot be matched confidently, identify the ambiguity and use the corresponding catalogue entry as the basis for resolution.
+
+Do not silently assign an incorrect image.
+
+---
+
+# 5. FOLLOW THE RESOURCE IMAGE DISPLAY RULES
+
+The attached catalogue defines a common image style.
+
+All images use AI-generated resource illustrations with a consistent presentation style.
+
+They are illustrations, not photographs.
+
+The images have a square composition, a flat pista-green background, soft top-left lighting, and a low beige platform.
+
+The catalogue specifies the following rules:
+
+- Preserve the original image.
+- Keep the image square.
+- Do not stretch the image.
+- Do not recolor the image.
+- Do not remove the pista-green background.
+- Do not place text or logos over the illustration.
+- Show the image inside a rounded panel using the same background color as the image.
+
+## Required image-panel background
+
+Use:
+
+`#E4EDCB`
+
+Place each resource image inside a rounded panel with this background so the image integrates naturally into the product cards in both themes.
+
+Do not make the image background transparent.
+
+Do not use image background removal.
+
+Do not apply CSS filters that alter the original image colors.
+
+Do not crop away important parts of the resource illustration.
+
+Use `object-fit: contain` or an equivalent approach that preserves the complete square illustration.
+
+## Image variants
+
+The catalogue describes two asset variants:
+
+- Original PNG: 1254 × 1254 pixels, intended for detailed views.
+- Smaller JPG: 1024 × 1024 pixels, intended for lists, cards, and thumbnails.
+
+Use the smaller version for product cards when available and the original version for larger product-detail views.
+
+If only one variant has been provided, use that variant appropriately.
+
+Do not assume every variant exists.
+
+---
+
+# 6. RESOURCE CATEGORIES AND FILTERING
+
+Build the category navigation from the supplied resource groups.
+
+The category selector should have a clear active state and a visual layout comparable to the GreenBasket reference.
+
+Create category cards or icon-based navigation for:
+
+- All Resources.
+- Bamboo.
+- Fruit.
+- Nuts & Oil Seeds.
+- Flowers.
+- Medicine & Herbs.
+- Forest Produce.
+- Timber Trees.
+- Shade & Sacred Trees.
+- Identification Pending, where appropriate.
+
+"Identification Pending" is an additional browsing state for the unidentified resources, not a replacement for the source's existing category labels.
+
+Keep the original category information associated with every resource.
+
+## Category interactions
+
+When a visitor selects a category:
+
+- Show the matching resources.
+- Update the active category style.
+- Update the visible count using the actual data.
+- Keep category navigation responsive.
+- Do not reload the page.
+- Preserve the selected theme.
+- Provide a useful empty state if necessary.
+
+Selecting All Resources must restore the complete catalogue.
+
+Every resource must remain accessible through the catalogue, including those whose pictures are pending.
+
+Do not invent resource records to fill a row or complete a category.
+
+---
+
+# 7. PRODUCT CARD DESIGN
+
+Recreate the product-card layout shown in the reference screenshot while using VanRozgar's data and image style.
+
+Each card should contain:
+
+1. Resource image in a rounded pista-green panel.
+2. Resource name.
+3. English or alternative name, where available.
+4. Category.
+5. Short description from the source catalogue.
+6. Availability information, if provided by the actual dataset.
+7. A clear View Details or Learn More action.
+
+Keep the cards uniform, polished, and easy to scan.
+
+Use consistent card dimensions, image areas, spacing, text alignment, and action placement.
+
+The desktop grid should display four cards per row where the viewport allows it.
+
+Use a responsive layout with fewer columns on smaller screens.
+
+## Product descriptions
+
+Use the descriptions in the VanRozgar resource catalogue and other genuine source data.
+
+Examples include:
+- Mango fruit.
+- Sour fruit eaten fresh or dried.
+- Sweet, creamy seasonal fruit.
+- Bamboo poles for building, fencing, and crafts.
+- Seeds pressed for oil.
+- Dried berries used as a natural cleaner.
+- Gum from tree bark.
+- Timber-tree saplings.
+- Fragrant flowers.
+
+These examples illustrate the source descriptions. Use the actual entry corresponding to each resource.
+
+Do not replace the resource information with unrelated grocery descriptions.
+
+Do not invent ratings, reviews, availability, price, seller names, or certifications.
+
+If no price is available, omit it or display an honest unavailable-price state if the interface requires one.
+
+If real stock information is available in the supplied application data or spreadsheet, integrate it using its actual fields and correctly distinguish estimates from confirmed stock.
+
+Do not treat the image catalogue alone as a source of current inventory.
+
+---
+
+# 8. RESOURCE DETAIL VIEWS
+
+When a visitor selects a product card, open a polished resource-detail page, modal, or drawer.
+
+Follow the current application architecture if an existing detail interface is available.
+
+Show:
+- Large resource illustration.
+- Resource name.
+- Alternative or English name.
+- Category.
+- Description of what the resource provides.
+- Source status.
+- Source notes, where relevant.
+- Availability and location information only when supplied by actual data.
+
+Reuse the original image at an appropriate resolution.
+
+Do not make a pending image appear completed.
+
+Display resource notes where needed to explain identification uncertainty.
+
+## Safety information
+
+The catalogue explicitly identifies two resources that must be marked as not for eating:
+
+**Bibba (marking nut)**
+- Display a prominent "Not for eating" warning.
+- Preserve the associated skin-irritation and toxicity warning from the catalogue.
+
+**Gunj Vel**
+- Display a prominent "Not for eating" warning.
+- Preserve the warning that its seeds are poisonous.
+
+These warnings must remain visible in both the product detail view and the relevant product card or safety badge where appropriate.
+
+Do not hide safety information behind a hover interaction.
+
+---
+
+# 9. PRESERVE RESOURCE IDENTIFICATION NOTES
+
+Some pictures are ready but require later checking against real references.
+
+Keep the relevant notes for resources such as:
+- Bor.
+- Karvand.
+- Khirni.
+- Karanj.
+- Koshimb.
+- Bibba.
+- Hirda.
+- Tetu.
+- Shisu.
+- Shami.
+
+These notes should not overwhelm the main product cards.
+
+Display a compact status badge where appropriate, with additional details in the resource-detail view.
+
+For example:
+
+- Ready.
+- Ready — Check Identification.
+- Image Pending.
+- Identification Pending.
+
+Use the actual status from the source catalogue.
+
+Do not claim that a species identification has been independently verified if the source says it still needs confirmation.
+
+## Pending resources
+
+The catalogue lists eight resources whose pictures are pending:
+- Shisam.
+- Jambta.
+- Ratangunj (Vanjyot).
+- Papda / Waval.
+- Surangi.
+- Lal Bhendi.
+- Buch Pangara.
+- Paayar.
+
+These resources must not disappear simply because no final picture exists.
+
+For pending images, use a tasteful placeholder in the same visual style, such as a neutral botanical silhouette within the standard pista-green image panel.
+
+Clearly label the image as pending or awaiting identification.
+
+Do not generate a realistic-looking species image and present it as the confirmed plant.
+
+Do not invent identifying information for unknown plants.
+
+When the correct image later becomes available, the website should only require updating its asset mapping rather than rebuilding the entire product catalogue.
+
+---
+
+# 10. VISUAL THEME AND COLORS
+
+Reproduce the reference website's overall dark-green marketplace appearance as closely as possible.
+
+Use the GreenBasket screenshot as the guide for:
+- Overall dark background.
+- Navigation styling.
+- Hero composition.
+- Product-card arrangement.
+- Category section.
+- Benefit cards.
+- Image-led promotional areas.
+- Footer layout.
+- Visual density and spacing.
+
+At the same time, preserve the VanRozgar visual identity and the specific product-image styling rules from the catalogue.
+
+The catalogue lists these VanRozgar colors:
+
+| Purpose | Color |
+|---|---|
+| Primary green | `#4E7A3A` |
+| Heading green | `#2F4A2A` |
+| Pista accent | `#DDE8C6` |
+| Beige | `#F7F2E8` |
+| Brown | `#5A3B22` |
+| Orange | `#A4551A` |
+| Product image-panel background | `#E4EDCB` |
+
+The product image-panel background should remain `#E4EDCB` regardless of the website's page theme.
+
+Use the other VanRozgar colors thoughtfully to establish consistent brand styling.
+
+### Important orange rule
+
+The catalogue explicitly says:
+
+**Orange is for prices and small highlights, not button fills.**
+
+Therefore:
+- Use the VanRozgar green palette for primary button surfaces.
+- Use orange sparingly for prices, small highlights, and selected details.
+- Do not fill all buttons with orange.
+- Do not replace the resource catalogue's palette with unrelated colors.
+
+The overall page may use a deep-green visual environment inspired by the reference while retaining the VanRozgar green, pista, beige, and brown identity.
+
+Maintain readable text contrast and ensure that the supplied illustrations remain visually consistent with their backgrounds.
+
+---
+
+# 11. PRODUCT DATA AND ASSET ARCHITECTURE
+
+Inspect any existing structured dataset, manifest, application records, or resource metadata that I provide.
+
+If `manifest.csv` or `manifest.json` is available, use it to map product IDs, names, groups, image filenames, descriptions, and status notes.
+
+If a separate resource stock spreadsheet or other dataset is available, inspect it and integrate it without confusing estimated quantities with verified stock.
+
+If only the PDF and individual images are available, use the PDF's resource descriptions and image mapping as the source for the resource catalogue.
+
+Do not invent data that is absent from the supplied materials.
+
+Create a maintainable data model.
+
+Each resource should have a stable ID, original name, display name, category, description, image path, and relevant source status.
+
+Keep the resource data independent of the UI components so it can be reused throughout the website.
+
+Do not hardcode the same product information separately inside category cards, featured-product sections, and detail views.
+
+All these components should use the same underlying resource records.
+
+---
+
+# 12. FUNCTIONAL REQUIREMENTS
+
+This must be a functional website, not just a static screenshot.
+
+Implement:
+- Working primary navigation.
+- Category selection and filtering.
+- Resource search, if supported by the existing application.
+- Functional product cards.
+- Resource-detail interactions.
+- Responsive mobile navigation.
+- Working language selection if translations are supplied.
+- Working theme switching if supported.
+- Clear pending-image states.
+- Resource counts computed from the actual dataset.
+- Useful loading and empty states where necessary.
+
+Do not add a shopping cart, checkout, payment integration, or account system unless the existing project or supplied data supports the functionality and I have explicitly requested it.
+
+Do not create fake transaction flows.
+
+If the current project already has real purchasing, barter, or stock-request behavior, preserve and integrate it.
+
+Keep existing functionality wherever possible.
+
+---
+
+# 13. RESPONSIVE DESIGN
+
+Reproduce the reference's visual proportions while adapting to different viewport sizes.
+
+### Desktop
+- Horizontal main navigation.
+- Two-column hero layout.
+- Prominent hero image.
+- Horizontal resource-category cards.
+- Four-column product grid where space permits.
+- Multi-column footer.
+
+### Tablet
+- Balanced hero layout.
+- Category cards that fit or scroll horizontally.
+- Two- or three-column product grid depending on width.
+- Readable navigation and controls.
+
+### Mobile
+- Compact navigation with a working menu.
+- Stacked hero text and image.
+- Horizontally scrollable category navigation if necessary.
+- Two-column product grid when cards remain readable, otherwise one column.
+- Properly sized buttons and readable labels.
+- No horizontal page overflow.
+- Compact footer sections.
+
+Maintain the reference's visual hierarchy at each breakpoint.
+
+Do not solve responsiveness by simply shrinking every element.
+
+---
+
+# 14. PERFORMANCE AND IMAGE OPTIMIZATION
+
+The resource catalogue contains many large square illustrations.
+
+Use them efficiently.
+
+Requirements:
+- Use appropriately sized images for product cards.
+- Use the original high-resolution versions for resource details where available.
+- Preserve aspect ratios.
+- Set image dimensions to reduce layout shifting.
+- Use lazy loading for images outside the initial viewport.
+- Avoid loading multiple full-resolution copies of the same image unnecessarily.
+- Keep asset paths local and reliable.
+- Avoid embedding large base64 images directly into source files.
+- Do not depend on unstable third-party image URLs.
+
+Ensure the product grid remains smooth when displaying the full resource catalogue.
+
+---
+
+# 15. STRICT RESTRICTIONS
+
+Do not:
+- Use GreenBasket branding or logo.
+- Leave grocery-specific product names or content.
+- Invent product prices or discounts.
+- Invent customer reviews or sales statistics.
+- Invent stock levels or availability.
+- Misrepresent illustrative product images as photographs.
+- Remove the pista-green image backgrounds.
+- Stretch or recolor resource images.
+- Hide the eight pending resources.
+- Present unknown species as identified.
+- Remove the safety warnings for Bibba and Gunj Vel.
+- Replace VanRozgar's content with generic ecommerce copy.
+- Build only a hero section while leaving the other page areas incomplete.
+- Generate a static screenshot instead of a functional website.
+- Break the supplied image mappings or existing data.
+- Add unnecessary libraries or unrelated features.
+
+---
+
+# 16. IMPLEMENTATION WORKFLOW
+
+Follow this order:
+
+1. Inspect the GreenBasket screenshot and identify the major layout regions.
+2. Read the VanRozgar resource catalogue PDF.
+3. Inspect all individually uploaded product images.
+4. Match resource names to image files using the catalogue.
+5. Identify any existing resource data or manifest supplied with the project.
+6. Build the complete resource catalogue data model.
+7. Implement the global visual theme and navigation.
+8. Build the hero and community feature banner.
+9. Build the resource-category navigation.
+10. Build the full product catalogue and product cards.
+11. Implement resource-detail views.
+12. Add status labels and safety warnings.
+13. Build the benefits section, informative promotional area, and footer.
+14. Implement responsive layouts and interactions.
+15. Verify every available image mapping.
+16. Confirm that all 51 resources are represented.
+17. Confirm that pending images are clearly handled.
+18. Test light and dark visual states if both are supported.
+19. Check for broken image paths and missing data.
+20. Run the available build and validation checks.
+21. Fix any issues introduced during implementation.
+
+If a feature cannot be implemented because its necessary data or backend is missing, make that limitation explicit instead of pretending the feature works.
+
+---
+
+# 17. DEFINITION OF DONE
+
+The website is complete only when:
+
+- The overall website closely reproduces the supplied GreenBasket reference layout and visual hierarchy.
+- The website uses VanRozgar branding and content.
+- The hero, category section, resource grid, benefit cards, featured-resource banner, and footer are implemented.
+- All 51 catalogue resources are represented.
+- All available images are matched to the correct resources.
+- The eight pending image resources remain visible with appropriate placeholders.
+- The ten "check later" image notes are preserved in resource metadata.
+- The product images retain their original square format and pista-green background.
+- Product categories filter the correct resources.
+- Product cards display genuine descriptions and source-backed information.
+- Unsupported prices, ratings, stock quantities, and certifications are not fabricated.
+- Bibba and Gunj Vel display their "Not for eating" warnings.
+- The layout works on desktop, tablet, and mobile.
+- All visible navigation and interactive controls behave correctly.
+- The code is maintainable and the resource data is separated from presentation components.
+- The application builds successfully, or any pre-existing failure is documented.
+
+---
+
+# 18. FINAL REPORT
+
+After completing the implementation, report:
+
+1. Which major website sections were built.
+2. How the GreenBasket reference was translated into the VanRozgar visual identity.
+3. How the resource data was organized.
+4. How many resources were integrated.
+5. How many images were matched successfully.
+6. Which resource images remain pending or require later identification checks.
+7. Whether the safety warnings and resource notes were preserved.
+8. Which files were created or modified.
+9. Which build and validation checks were performed and their actual results.
+
+Implement the website directly in the Google AI Studio project.
+
+Do not stop after creating a mockup, writing a plan, or providing a sample component.
+
+**Build the complete VanRozgar marketplace website using the supplied reference, source data, and actual resource images.**
