@@ -34,7 +34,7 @@ export const GreenBasketPromoBanner: React.FC<GreenBasketPromoBannerProps> = ({
               onClick={onActionClick}
               className="bg-[#4E7A3A] hover:bg-[#3E622E] text-white dark:bg-[#8DB85A] dark:hover:bg-[#9EC86B] dark:text-[#1C2619] font-extrabold text-xs sm:text-sm px-6 py-3 rounded-full transition-all shadow-md flex items-center gap-2 cursor-pointer group"
             >
-              <span>Explore All 52 Resources</span>
+              <span>Explore All 51 Resources</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
