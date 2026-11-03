@@ -12,17 +12,18 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-const THEME_STORAGE_KEY = 'vanrozgar_theme';
+export const THEME_STORAGE_KEY = 'vanrozgar_theme';
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  // Determine initial theme from localStorage or system preference
+  // Determine initial theme from localStorage.
+  // CRITICAL: First-time visitors must open in Light Mode by default.
   const [theme, setThemeState] = useState<Theme>(() => {
     if (typeof window === 'undefined') return 'light';
     const saved = localStorage.getItem(THEME_STORAGE_KEY);
-    if (saved === 'light' || saved === 'dark') {
+    if (saved === 'dark' || saved === 'light') {
       return saved;
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return 'light'; // Always default to Light Mode for first-time visitors
   });
 
   const [isManual, setIsManual] = useState<boolean>(() => {
@@ -51,24 +52,6 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   useEffect(() => {
     applyThemeToDOM(theme);
   }, [theme, applyThemeToDOM]);
-
-  // Listen to OS color scheme changes when not overridden manually
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-
-    const handleSystemChange = (e: MediaQueryListEvent) => {
-      const saved = localStorage.getItem(THEME_STORAGE_KEY);
-      if (!saved) {
-        const newSystemTheme: Theme = e.matches ? 'dark' : 'light';
-        setThemeState(newSystemTheme);
-        applyThemeToDOM(newSystemTheme);
-      }
-    };
-
-    mediaQuery.addEventListener('change', handleSystemChange);
-    return () => mediaQuery.removeEventListener('change', handleSystemChange);
-  }, [applyThemeToDOM]);
 
   const toggleTheme = useCallback(() => {
     setThemeState((prev) => {
