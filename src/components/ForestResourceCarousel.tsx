@@ -27,6 +27,10 @@ interface ForestResourceCarouselProps {
   onResetFilters: () => void;
 }
 
+// Timing constants: 1000ms switch interval, 700ms fluid transition (within 600-800ms)
+const AUTOPLAY_INTERVAL = 1000;
+const TRANSITION_DURATION = 700;
+
 export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
   resources,
   currentLang,
@@ -37,16 +41,26 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
   searchQuery,
   onResetFilters,
 }) => {
-  // Current active index in the resources list
+  // Current active index in the carousel virtual ring
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Animation lock state to prevent rapid-click race conditions
+  // Synchronously reset activeIndex when filters or data length change
+  const filterKey = `${selectedCategory}|${statusFilter}|${searchQuery}|${resources.length}`;
+  const [prevFilterKey, setPrevFilterKey] = useState(filterKey);
+
+  if (filterKey !== prevFilterKey) {
+    setPrevFilterKey(filterKey);
+    setActiveIndex(0);
+  }
+
+  // Animation lock state to prevent rapid-click race conditions & overlapping transitions
   const [isAnimating, setIsAnimating] = useState(false);
+  const isAnimatingRef = useRef(false);
   const animationTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Autoplay state
-  const [isAutoPlaying, setIsAutoPlaying] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
+  // Autoplay state - enabled by default with 1000ms interval
+  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const autoplayTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // Touch & Swipe state
   const touchStartXRef = useRef<number | null>(null);
@@ -58,9 +72,6 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
     return typeof window !== 'undefined' ? window.innerWidth : 1024;
   });
 
-  // Reduced motion preference
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState<boolean>(false);
-
   // Fallback image handling
   const [failedImageIds, setFailedImageIds] = useState<Record<string, boolean>>({});
 
@@ -68,72 +79,103 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
     setFailedImageIds((prev) => ({ ...prev, [id]: true }));
   };
 
-  // Reset active index when filtered resources change
-  useEffect(() => {
-    setActiveIndex(0);
-  }, [selectedCategory, statusFilter, searchQuery, resources.length]);
+  // Virtual circular ring ensuring smooth transitions with unique stable keys even for small lists (< 5 items)
+  const virtualItems = useMemo(() => {
+    if (resources.length === 0) return [];
+    if (resources.length === 1) {
+      return [{ resource: resources[0], virtualKey: resources[0].id, realIndex: 0 }];
+    }
+    // For small arrays (< 5 items), clone with stable virtual suffixes to guarantee >= 6 unique slots in the continuous conveyor belt
+    const minSlots = 6;
+    const repeatCount = resources.length < 5 ? Math.ceil(minSlots / resources.length) : 1;
+    const list: { resource: CatalogueResource; virtualKey: string; realIndex: number }[] = [];
+    for (let r = 0; r < repeatCount; r++) {
+      resources.forEach((res, idx) => {
+        list.push({
+          resource: res,
+          virtualKey: repeatCount > 1 ? `${res.id}-rep-${r}` : res.id,
+          realIndex: idx,
+        });
+      });
+    }
+    return list;
+  }, [resources]);
 
-  // Window resize & reduced motion listener
+  const totalCount = virtualItems.length;
+  const realTotalCount = resources.length;
+  const safeActiveIndex = totalCount > 0 ? Math.min(Math.max(0, activeIndex), totalCount - 1) : 0;
+  const realActiveIndex = virtualItems[safeActiveIndex]?.realIndex ?? 0;
+  const activeResource = virtualItems[safeActiveIndex]?.resource ?? null;
+
+  // Sync state if activeIndex was out of bounds
+  if (totalCount > 0 && activeIndex !== safeActiveIndex) {
+    setActiveIndex(safeActiveIndex);
+  }
+
+  // Window resize listener
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
     const handleResize = () => setWindowWidth(window.innerWidth);
     window.addEventListener('resize', handleResize);
 
-    const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    setPrefersReducedMotion(motionQuery.matches);
-
-    const handleMotionChange = (e: MediaQueryListEvent) => {
-      setPrefersReducedMotion(e.matches);
-    };
-
-    if (motionQuery.addEventListener) {
-      motionQuery.addEventListener('change', handleMotionChange);
-    }
-
     return () => {
       window.removeEventListener('resize', handleResize);
-      if (motionQuery.removeEventListener) {
-        motionQuery.removeEventListener('change', handleMotionChange);
-      }
     };
   }, []);
 
-  // Safe navigation helpers
-  const totalCount = resources.length;
+  // Animation lock helper using stable ref to prevent overlapping transitions
+  const startAnimationLock = useCallback(() => {
+    isAnimatingRef.current = true;
+    setIsAnimating(true);
+    if (animationTimerRef.current) clearTimeout(animationTimerRef.current);
+    animationTimerRef.current = setTimeout(() => {
+      isAnimatingRef.current = false;
+      setIsAnimating(false);
+    }, TRANSITION_DURATION);
+  }, []);
 
   const handleNext = useCallback(() => {
-    if (totalCount <= 1 || isAnimating) return;
-    setIsAnimating(true);
-    setActiveIndex((prev) => (prev + 1) % totalCount);
-
-    if (animationTimerRef.current) clearTimeout(animationTimerRef.current);
-    animationTimerRef.current = setTimeout(() => {
-      setIsAnimating(false);
-    }, 550);
-  }, [totalCount, isAnimating]);
+    if (totalCount <= 1 || isAnimatingRef.current) return;
+    startAnimationLock();
+    setActiveIndex((prev) => {
+      const current = Math.min(Math.max(0, prev), totalCount - 1);
+      return (current + 1) % totalCount;
+    });
+  }, [totalCount, startAnimationLock]);
 
   const handlePrev = useCallback(() => {
-    if (totalCount <= 1 || isAnimating) return;
-    setIsAnimating(true);
-    setActiveIndex((prev) => (prev - 1 + totalCount) % totalCount);
+    if (totalCount <= 1 || isAnimatingRef.current) return;
+    startAnimationLock();
+    setActiveIndex((prev) => {
+      const current = Math.min(Math.max(0, prev), totalCount - 1);
+      return (current - 1 + totalCount) % totalCount;
+    });
+  }, [totalCount, startAnimationLock]);
 
-    if (animationTimerRef.current) clearTimeout(animationTimerRef.current);
-    animationTimerRef.current = setTimeout(() => {
-      setIsAnimating(false);
-    }, 550);
-  }, [totalCount, isAnimating]);
+  const handleJumpToIndex = useCallback((targetRealIndex: number) => {
+    if (targetRealIndex === realActiveIndex || isAnimatingRef.current || targetRealIndex < 0 || targetRealIndex >= realTotalCount) return;
+    // Find closest match in virtualItems
+    const targetVirtualIdx = virtualItems.findIndex((v) => v.realIndex === targetRealIndex);
+    if (targetVirtualIdx !== -1) {
+      startAnimationLock();
+      setActiveIndex(targetVirtualIdx);
+    }
+  }, [realActiveIndex, realTotalCount, virtualItems, startAnimationLock]);
 
-  const handleJumpToIndex = (index: number) => {
-    if (index === activeIndex || isAnimating || index < 0 || index >= totalCount) return;
-    setIsAnimating(true);
-    setActiveIndex(index);
-
-    if (animationTimerRef.current) clearTimeout(animationTimerRef.current);
-    animationTimerRef.current = setTimeout(() => {
-      setIsAnimating(false);
-    }, 550);
-  };
+  // Autoplay timer with 1000ms interval and clean reset
+  const resetAutoplay = useCallback(() => {
+    if (autoplayTimerRef.current) {
+      clearInterval(autoplayTimerRef.current);
+      autoplayTimerRef.current = null;
+    }
+    if (!isAutoPlaying || totalCount <= 1) {
+      return;
+    }
+    autoplayTimerRef.current = setInterval(() => {
+      handleNext();
+    }, AUTOPLAY_INTERVAL);
+  }, [isAutoPlaying, totalCount, handleNext]);
 
   // Clean up animation timer
   useEffect(() => {
@@ -142,25 +184,41 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
     };
   }, []);
 
-  // Autoplay timer
+  // Manage autoplay interval lifecycle (resets on filter/category changes, avoids memory leaks)
   useEffect(() => {
-    if (!isAutoPlaying || isHovered || totalCount <= 1 || prefersReducedMotion) return;
+    resetAutoplay();
+    return () => {
+      if (autoplayTimerRef.current) {
+        clearInterval(autoplayTimerRef.current);
+        autoplayTimerRef.current = null;
+      }
+    };
+  }, [resetAutoplay]);
 
-    const timer = setInterval(() => {
-      handleNext();
-    }, 5000);
+  // Manual navigation helpers that restart the 1000ms autoplay timer smoothly
+  const handleNextManual = useCallback(() => {
+    handleNext();
+    resetAutoplay();
+  }, [handleNext, resetAutoplay]);
 
-    return () => clearInterval(timer);
-  }, [isAutoPlaying, isHovered, totalCount, prefersReducedMotion, handleNext]);
+  const handlePrevManual = useCallback(() => {
+    handlePrev();
+    resetAutoplay();
+  }, [handlePrev, resetAutoplay]);
+
+  const handleJumpManual = useCallback((index: number) => {
+    handleJumpToIndex(index);
+    resetAutoplay();
+  }, [handleJumpToIndex, resetAutoplay]);
 
   // Keyboard navigation
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'ArrowRight') {
       e.preventDefault();
-      handleNext();
+      handleNextManual();
     } else if (e.key === 'ArrowLeft') {
       e.preventDefault();
-      handlePrev();
+      handlePrevManual();
     }
   };
 
@@ -180,9 +238,9 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
     const delta = touchDeltaXRef.current;
     if (Math.abs(delta) > 40) {
       if (delta < 0) {
-        handleNext();
+        handleNextManual();
       } else {
-        handlePrev();
+        handlePrevManual();
       }
     }
     touchStartXRef.current = null;
@@ -192,8 +250,6 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
   // Dynamic slot offsets to mount surrounding items
   const slotOffsets = useMemo(() => {
     if (totalCount <= 1) return [0];
-    if (totalCount === 2) return [-1, 0, 1];
-    if (totalCount <= 4) return [-1, 0, 1];
     return [-2, -1, 0, 1, 2];
   }, [totalCount]);
 
@@ -201,18 +257,6 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
   const getSlotStyle = useCallback((slot: number) => {
     const isMobile = windowWidth < 640;
     const isTablet = windowWidth >= 640 && windowWidth < 1024;
-
-    if (prefersReducedMotion) {
-      // Accessible minimal transition when reduced motion is preferred
-      const xDist = isMobile ? 220 : isTablet ? 290 : 360;
-      return {
-        transform: `translate3d(calc(-50% + ${slot * xDist}px), 0px, 0) scale(${slot === 0 ? 1 : 0.75})`,
-        opacity: slot === 0 ? 1 : Math.abs(slot) === 1 ? 0.6 : 0,
-        zIndex: slot === 0 ? 30 : Math.abs(slot) === 1 ? 20 : 10,
-        pointerEvents: (slot === 0 ? 'auto' : Math.abs(slot) === 1 ? 'auto' : 'none') as React.CSSProperties['pointerEvents'],
-        transition: 'transform 200ms ease, opacity 200ms ease',
-      };
-    }
 
     if (isMobile) {
       // Mobile screen responsive motion
@@ -265,7 +309,7 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
         opacity,
         zIndex,
         pointerEvents: (slot === 0 ? 'auto' : Math.abs(slot) === 1 ? 'auto' : 'none') as React.CSSProperties['pointerEvents'],
-        transition: 'transform 600ms cubic-bezier(0.22, 1, 0.36, 1), opacity 600ms cubic-bezier(0.22, 1, 0.36, 1)',
+        transition: 'transform 700ms cubic-bezier(0.22, 1, 0.36, 1), opacity 700ms cubic-bezier(0.22, 1, 0.36, 1)',
       };
     }
 
@@ -320,7 +364,7 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
         opacity,
         zIndex,
         pointerEvents: (slot === 0 ? 'auto' : Math.abs(slot) === 1 ? 'auto' : 'none') as React.CSSProperties['pointerEvents'],
-        transition: 'transform 600ms cubic-bezier(0.22, 1, 0.36, 1), opacity 600ms cubic-bezier(0.22, 1, 0.36, 1)',
+        transition: 'transform 700ms cubic-bezier(0.22, 1, 0.36, 1), opacity 700ms cubic-bezier(0.22, 1, 0.36, 1)',
       };
     }
 
@@ -374,9 +418,9 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
       opacity,
       zIndex,
       pointerEvents: (slot === 0 ? 'auto' : Math.abs(slot) === 1 ? 'auto' : 'none') as React.CSSProperties['pointerEvents'],
-      transition: 'transform 600ms cubic-bezier(0.22, 1, 0.36, 1), opacity 600ms cubic-bezier(0.22, 1, 0.36, 1)',
+      transition: 'transform 700ms cubic-bezier(0.22, 1, 0.36, 1), opacity 700ms cubic-bezier(0.22, 1, 0.36, 1)',
     };
-  }, [windowWidth, prefersReducedMotion]);
+  }, [windowWidth]);
 
   // Empty state handling
   if (totalCount === 0) {
@@ -402,21 +446,18 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
     );
   }
 
-  // Active resource reference
-  const activeResource = resources[activeIndex];
-
   // Pagination dots generator
   const renderPaginationDots = () => {
-    if (totalCount <= 7) {
+    if (realTotalCount <= 7) {
       return (
         <div className="flex items-center gap-2">
           {resources.map((_, i) => (
             <button
               key={i}
-              onClick={() => handleJumpToIndex(i)}
+              onClick={() => handleJumpManual(i)}
               aria-label={`Jump to resource ${i + 1}`}
               className={`transition-all duration-300 rounded-full cursor-pointer ${
-                i === activeIndex
+                i === realActiveIndex
                   ? 'w-6 h-2 bg-[#4E7A3A] dark:bg-[#8DB85A] shadow-xs'
                   : 'w-2 h-2 bg-[#E2D6BE] hover:bg-[#d0c2a5] dark:bg-[#3C4E38] dark:hover:bg-[#4d6348]'
               }`}
@@ -427,21 +468,21 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
     }
 
     const maxDots = 5;
-    let startDot = Math.max(0, activeIndex - Math.floor(maxDots / 2));
-    if (startDot + maxDots > totalCount) {
-      startDot = Math.max(0, totalCount - maxDots);
+    let startDot = Math.max(0, realActiveIndex - Math.floor(maxDots / 2));
+    if (startDot + maxDots > realTotalCount) {
+      startDot = Math.max(0, realTotalCount - maxDots);
     }
-    const visibleDots = Array.from({ length: Math.min(maxDots, totalCount) }, (_, idx) => startDot + idx);
+    const visibleDots = Array.from({ length: Math.min(maxDots, realTotalCount) }, (_, idx) => startDot + idx);
 
     return (
       <div className="flex items-center gap-2">
         {visibleDots.map((dotIdx) => (
           <button
             key={dotIdx}
-            onClick={() => handleJumpToIndex(dotIdx)}
-            aria-label={`Jump to resource ${dotIdx + 1} of ${totalCount}`}
+            onClick={() => handleJumpManual(dotIdx)}
+            aria-label={`Jump to resource ${dotIdx + 1} of ${realTotalCount}`}
             className={`transition-all duration-300 rounded-full cursor-pointer ${
-              dotIdx === activeIndex
+              dotIdx === realActiveIndex
                 ? 'w-6 h-2 bg-[#4E7A3A] dark:bg-[#8DB85A] shadow-xs'
                 : 'w-2 h-2 bg-[#E2D6BE] hover:bg-[#d0c2a5] dark:bg-[#3C4E38] dark:hover:bg-[#4d6348]'
             }`}
@@ -456,8 +497,6 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
       ref={containerRef}
       tabIndex={0}
       onKeyDown={handleKeyDown}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -508,7 +547,7 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
           </button>
 
           <span className="text-xs font-mono font-bold text-[#4E7A3A] dark:text-[#8DB85A] tabular-nums bg-white dark:bg-[#1C2619] px-2.5 py-1 rounded-md border border-[#E2D6BE] dark:border-[#3C4E38]">
-            {String(activeIndex + 1).padStart(2, '0')} / {String(totalCount).padStart(2, '0')}
+            {String(realActiveIndex + 1).padStart(2, '0')} / {String(realTotalCount).padStart(2, '0')}
           </span>
         </div>
       </div>
@@ -518,7 +557,7 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
         <h3 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-[#2F4A2A] dark:text-[#F4F7EA]">
           {selectedCategory === 'all'
             ? (currentLang === 'mr' ? 'वन संसाधने व रानमेवा' : 'Forest Resources & Wild Produce')
-            : activeResource.groupName}
+            : (activeResource?.groupName || (currentLang === 'mr' ? 'वन संसाधने' : 'Forest Resources'))}
         </h3>
         <p className="text-xs sm:text-sm text-[#7B6A55] dark:text-[#A9B49A] font-normal max-w-lg mx-auto">
           {currentLang === 'mr'
@@ -531,9 +570,9 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
       <div className="relative z-20 mt-2 sm:mt-4 mb-2 min-h-[530px] sm:min-h-[570px] md:min-h-[600px] flex items-start justify-center select-none overflow-hidden pb-4">
         
         {/* Left Arrow Navigation Button - Aligned with botanical image pedestal */}
-        {totalCount > 1 && (
+        {realTotalCount > 1 && (
           <button
-            onClick={handlePrev}
+            onClick={handlePrevManual}
             aria-label="Previous forest resource"
             className="absolute left-1 sm:left-3 md:left-5 top-[110px] sm:top-[130px] md:top-[145px] -translate-y-1/2 z-40 w-11 h-11 sm:w-13 sm:h-13 rounded-full border border-[#E2D6BE] dark:border-[#3C4E38] hover:border-[#4E7A3A] dark:hover:border-[#8DB85A] bg-white dark:bg-[#1C2619] text-[#4E7A3A] dark:text-[#8DB85A] shadow-md hover:shadow-lg flex items-center justify-center transition-all cursor-pointer hover:scale-108 active:scale-95 focus-visible:ring-2 focus-visible:ring-[#4E7A3A]"
           >
@@ -542,9 +581,9 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
         )}
 
         {/* Right Arrow Navigation Button - Aligned with botanical image pedestal */}
-        {totalCount > 1 && (
+        {realTotalCount > 1 && (
           <button
-            onClick={handleNext}
+            onClick={handleNextManual}
             aria-label="Next forest resource"
             className="absolute right-1 sm:right-3 md:right-5 top-[110px] sm:top-[130px] md:top-[145px] -translate-y-1/2 z-40 w-11 h-11 sm:w-13 sm:h-13 rounded-full border border-[#E2D6BE] dark:border-[#3C4E38] hover:border-[#4E7A3A] dark:hover:border-[#8DB85A] bg-white dark:bg-[#1C2619] text-[#4E7A3A] dark:text-[#8DB85A] shadow-md hover:shadow-lg flex items-center justify-center transition-all cursor-pointer hover:scale-108 active:scale-95 focus-visible:ring-2 focus-visible:ring-[#4E7A3A]"
           >
@@ -554,11 +593,12 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
 
         {/* =========================================================================
             SLIDING PRODUCT CARDS (Continuous Spatial Traversal Along Arc)
-           ========================================================================= */}
+            ========================================================================= */}
         {slotOffsets.map((slotOffset) => {
-          const itemIndex = (activeIndex + slotOffset + totalCount * 10) % totalCount;
-          const resource = resources[itemIndex];
-          if (!resource) return null;
+          const itemIndex = ((safeActiveIndex + slotOffset) % totalCount + totalCount) % totalCount;
+          const vItem = virtualItems[itemIndex];
+          if (!vItem) return null;
+          const resource = vItem.resource;
 
           const isCenter = slotOffset === 0;
           const isLeft = slotOffset === -1;
@@ -567,11 +607,11 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
 
           return (
             <div
-              key={resource.id}
+              key={vItem.virtualKey}
               style={motionStyle}
               onClick={() => {
-                if (isLeft) handlePrev();
-                else if (isRight) handleNext();
+                if (isLeft) handlePrevManual();
+                else if (isRight) handleNextManual();
               }}
               className={`absolute top-1 sm:top-2 left-1/2 w-full max-w-[290px] sm:max-w-[340px] md:max-w-[370px] flex flex-col items-center will-change-transform ${
                 isCenter ? 'cursor-default' : 'cursor-pointer hover:opacity-95'
@@ -773,7 +813,7 @@ export const ForestResourceCarousel: React.FC<ForestResourceCarouselProps> = ({
 
         {/* Right: Full Collection Counter */}
         <div className="font-mono text-[11px] font-semibold text-[#4E7A3A] dark:text-[#8DB85A] tabular-nums">
-          {totalCount} {currentLang === 'mr' ? 'एकूण वन प्रजाती' : 'Verified Forest Species'}
+          {realTotalCount} {currentLang === 'mr' ? 'एकूण वन प्रजाती' : 'Verified Forest Species'}
         </div>
       </div>
     </div>
