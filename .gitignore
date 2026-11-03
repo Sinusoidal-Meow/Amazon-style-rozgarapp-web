@@ -34,3 +34,8 @@ desktop.ini
 *.njsproj
 *.sln
 *.sw?
+
+# AI Studio runtime
+.aistudio/
+.playwright-cli/
+
