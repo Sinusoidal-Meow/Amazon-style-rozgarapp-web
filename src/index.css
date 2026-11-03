@@ -108,8 +108,40 @@
   will-change: transform, opacity;
 }
 
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+@keyframes botanicalFloatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes botanicalFloatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.animate-float-slow {
+  animation: botanicalFloatSlow 7s ease-in-out infinite;
+}
+
+.animate-float-gentle {
+  animation: botanicalFloatGentle 5.5s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .category-card-enter {
+  .category-card-enter,
+  .animate-float-slow,
+  .animate-float-gentle {
     opacity: 1 !important;
     transform: none !important;
     animation: none !important;
