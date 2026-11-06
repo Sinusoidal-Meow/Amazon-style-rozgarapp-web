@@ -138,10 +138,116 @@
   animation: botanicalFloatGentle 5.5s ease-in-out infinite;
 }
 
+/* Cinematic Living Forest Hero Animations */
+@keyframes heroMistDrift {
+  0% {
+    transform: translate3d(-3%, 0, 0) scale(1.04);
+  }
+  50% {
+    transform: translate3d(3%, -1%, 0) scale(1.06);
+  }
+  100% {
+    transform: translate3d(-3%, 0, 0) scale(1.04);
+  }
+}
+
+@keyframes heroSunbeamBreathe {
+  0%, 100% {
+    opacity: 0.65;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes heroPollenFloat1 {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translate3d(24px, -36px, 0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate3d(48px, -72px, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes heroPollenFloat2 {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate3d(-20px, -45px, 0);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate3d(-35px, -90px, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes heroScrollLine {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+  }
+  40% {
+    transform: scaleY(1);
+    transform-origin: top;
+    opacity: 1;
+  }
+  80% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+}
+
+.animate-hero-mist {
+  animation: heroMistDrift 28s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-hero-sunbeam {
+  animation: heroSunbeamBreathe 9s ease-in-out infinite;
+  will-change: opacity, transform;
+}
+
+.animate-hero-pollen-1 {
+  animation: heroPollenFloat1 11s linear infinite;
+  will-change: transform, opacity;
+}
+
+.animate-hero-pollen-2 {
+  animation: heroPollenFloat2 14s linear infinite;
+  will-change: transform, opacity;
+}
+
+.animate-scroll-line {
+  animation: heroScrollLine 2.2s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .category-card-enter,
   .animate-float-slow,
-  .animate-float-gentle {
+  .animate-float-gentle,
+  .animate-hero-mist,
+  .animate-hero-sunbeam,
+  .animate-hero-pollen-1,
+  .animate-hero-pollen-2,
+  .animate-scroll-line {
     opacity: 1 !important;
     transform: none !important;
     animation: none !important;

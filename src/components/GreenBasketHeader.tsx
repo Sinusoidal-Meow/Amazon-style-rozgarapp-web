@@ -264,7 +264,7 @@ export const GreenBasketHeader: React.FC<GreenBasketHeaderProps> = ({
             onClick={() => { onNavigateSection('catalogue'); setMobileMenuOpen(false); }}
             className="w-full text-left py-2 text-[#3F4A36] dark:text-[#E9EFDC] hover:text-[#4E7A3A] dark:hover:text-[#8DB85A] border-b border-[#E2D6BE] dark:border-[#3C4E38]"
           >
-            Marketplace (52 Resources)
+            Marketplace (51 Resources)
           </button>
           <button
             onClick={() => { onNavigateSection('categories'); setMobileMenuOpen(false); }}

@@ -208,6 +208,8 @@ export const App: React.FC = () => {
             currentLang={currentLang}
             onExploreClick={() => handleNavigateSection('catalogue')}
             onCategoriesClick={() => handleNavigateSection('categories')}
+            onSelectResource={(r) => setSelectedResource(r)}
+            totalCount={ALL_51_RESOURCES.length}
           />
         </div>
 
